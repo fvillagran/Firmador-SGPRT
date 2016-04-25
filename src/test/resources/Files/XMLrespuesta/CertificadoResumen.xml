@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RESPUESTA xmlns="http://www.mtt.cl/2007/05/sgprt/respuesta">
+    <RESULTADO_RESUMEN COD_RESPUESTA="RE" FECHA_HORA="2010-07-15 09:04:03"/>
+    <ERRORES_RESUMEN>
+        <ERROR COD_TIPO_ERR="2b" MENSAJE_ERR="La Firma Digital del Resumen no es valida."/>
+    </ERRORES_RESUMEN>
+</RESPUESTA>

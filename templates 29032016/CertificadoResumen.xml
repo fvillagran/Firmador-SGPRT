@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESUMEN xmlns="http://www.mtt.cl/2007/05/sgprt/resumen"
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mtt.cl/2007/05/sgprt/resumen SGPRT_SCHEMA_RESUMEN_VER_1_1.xsd 
+	http://www.w3.org/2000/09/xmldsig# http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/xmldsig-core-schema.xsd">
+	<VALORES ID="[ID]">
+		<ENCABEZADO COD_PRT="[COD_PRT]" FEC_RESUMEN="[FEC_RESUMEN]"	URI="[URI]" RUT_FUNCIONARIO="[RUT_FUNCIONARIO]" DV_FUNCIONARIO="[DV_FUNCIONARIO]" />
+		[ID_CRT_PRT]
+	</VALORES>
+</RESUMEN>

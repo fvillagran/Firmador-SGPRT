@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RESUMEN xmlns="http://www.mtt.cl/2007/05/sgprt/resumen" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mtt.cl/2007/05/sgprt/resumen SGPRT_SCHEMA_RESUMEN_VER_1_1.xsd   http://www.w3.org/2000/09/xmldsig# http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/xmldsig-core-schema.xsd">
+	<VALORES ID="ID0908051835">
+		<ENCABEZADO COD_PRT="AB0801" DV_FUNCIONARIO="0" FEC_RESUMEN="2010-07-09" RUT_FUNCIONARIO="13954554" URI="http://www.mtt.cl/sgprt/resumen/AB0801/2010-07-09"/>
+		<CRT ID_CRT_PRT="R26477"/><CRT ID_CRT_PRT="R26478"/><CRT ID_CRT_PRT="R26479"/><CRT ID_CRT_PRT="R26480"/><CRT ID_CRT_PRT="R26481"/><CRT ID_CRT_PRT="R26482"/>
+	</VALORES>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" xmlns="http://www.w3.org/2000/09/xmldsig#"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" xmlns="http://www.w3.org/2000/09/xmldsig#"/>
+<Reference URI="" xmlns="http://www.w3.org/2000/09/xmldsig#">
+<Transforms xmlns="http://www.w3.org/2000/09/xmldsig#">
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" xmlns="http://www.w3.org/2000/09/xmldsig#"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" xmlns="http://www.w3.org/2000/09/xmldsig#"/>
+<DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">UPYm8En2yaQC55LvE78WpOZBHzM=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">
+ah365EFWOkg5zu6oLTpjA3CG07GNSW225i271qxNsnI8ked9nAbvbUHCb2bcyw69mmKmKAttEG36
+t9wSthbieQf0ZO5q03mVG2HOJoTCliY6iARBMudJMxqibLPafyg45N489So/fQ9XycOztmi3yUbB
+eN/RsM9TbPJC4NMiZyM=
+</SignatureValue>
+<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+<X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+<X509Certificate xmlns="http://www.w3.org/2000/09/xmldsig#">
+MIIFXzCCBEegAwIBAgICB8swDQYJKoZIhvcNAQEFBQAwgYoxCzAJBgNVBAYTAkNMMRMwEQYDVQQF
+Ewo5NjkxOTA1MC04MR4wHAYJKoZIhvcNAQkBFg9pbmZvQGFjZXB0YS5jb20xRjBEBgNVBAMTPUFj
+ZXB0YS5jb20gQXV0b3JpZGFkIENlcnRpZmljYWRvcmEgRmlybWEgRWxlY3Ryb25pY2EgQXZhbnph
+ZGEwHhcNMTAwNTI4MjAxMzI0WhcNMTEwNTI4MjAxMzI0WjBnMQswCQYDVQQGEwJDTDEdMBsGCSqG
+SIb3DQEJARYOYXBhbG1hQG1lbW8uY2wxEzARBgNVBAUTCjEzOTU0NTU0LTAxJDAiBgNVBAMTG0FM
+RVggR1VJTExFUk1PIEFSQVlBIENSVUNFUzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAiWyF
+krjaoujobcHl9xvgj6pvkn6CJMtOOily2cI8bPFk7cpl/N87fRJuiO9+WfM2YS2SkMkXYs/5XewA
+oRZ9FkKlrfJcKtx83im7wQoXBeXmV+wl9kka9ZyxuQJTKuEX1RP5+wRdqQRgCGZ0AZEIQRikK2+A
+TPUKNMdeLi7QrU8CAwEAAaOCAnMwggJvMFkGA1UdEQRSMFCgGAYIKwYBBAHBAQGgDBYKMTM5NTQ1
+NTQtMIEOYXBhbG1hQG1lbW8uY2ygJAYIKwYBBQUHCAOgGDAWDAoxMzk1NDU1NC0wBggrBgEEAcEB
+ATAJBgNVHRMEAjAAMBEGCWCGSAGG+EIBAQQEAwIFoDALBgNVHQ8EBAMCBPAwHQYDVR0lBBYwFAYI
+KwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBRoB/6mSaMRJ+Nxv1uDURYINltNIjAfBgNVHSME
+GDAWgBTdDhQQna8Kg9foFogFUNX77xfPoDAlBgNVHRIEHjAcoBoGCCsGAQQBwQECoA4WDDk2Ljkx
+OS4wNTAtODCB/AYDVR0gBIH0MIHxMIHuBggrBgEEAbVrAjCB4TAoBggrBgEFBQcCARYcaHR0cDov
+L3d3dy5hY2VwdGEuY29tL0NQUy9GQTCBtAYIKwYBBQUHAgIwgacwERYKQWNlcHRhLmNvbTADAgEB
+GoGRQ2VydGlmaWNhZG8gcGFyYSBGaXJtYSBFbGVjdHJvbmljYSBBdmFuemFkYS4gUmVzb2x1Y2lv
+biBleGVudGEgNjUwIGRlbCAyMSBkZSBvY3R1YnJlIGRlIDIwMDQsIFN1YnNlY3JldGFyaWEgZGUg
+RWNvbm9taWEsIEZvbWVudG8geSBSZWNvbnN0cnVjY2lvbjAzBggrBgEFBQcBAQQnMCUwIwYIKwYB
+BQUHMAGGF2h0dHA6Ly9vY3NwLmFjZXB0YS5jb20vMC0GA1UdHwQmMCQwIqAgoB6GHGh0dHA6Ly9j
+cmwuYWNlcHRhLmNvbS9GQS5jcmwwDQYJKoZIhvcNAQEFBQADggEBAHgbcI7ms+HU+YWtM0CdUMgK
+tTR8xWaVXONLOXYyWkcLXMeiLSUHRJwNl1qsQW4RjiJ7DJ2sfoQ6bWUUkQ46eovd1wYFqJdDzRpH
+kwGKZ+QylUPbeZ7ujnDpX13E7X0bJNJAjhjNcv4WsdpA/pXkqQ0SKCwHxy/Rhk8AtAEpSFmspd2k
+7qaF0ZD628HqAq82TqdOVIWae/9dd0EP09ZKDB3SQTf8OD0mSgCbLMl3aI4CjjSOySoml6jVI1GJ
+5F91IZDtRWC0bsutdXYJkbSRSLE9KkD1MYIWP2LwCxRp4QtmCHXNaoT/h7Qds3AXetEVvaallcHQ
+q6Iw2NixclK1srY=
+</X509Certificate>
+</X509Data>
+<KeyValue xmlns="http://www.w3.org/2000/09/xmldsig#">
+<RSAKeyValue xmlns="http://www.w3.org/2000/09/xmldsig#">
+<Modulus xmlns="http://www.w3.org/2000/09/xmldsig#">
+iWyFkrjaoujobcHl9xvgj6pvkn6CJMtOOily2cI8bPFk7cpl/N87fRJuiO9+WfM2YS2SkMkXYs/5
+XewAoRZ9FkKlrfJcKtx83im7wQoXBeXmV+wl9kka9ZyxuQJTKuEX1RP5+wRdqQRgCGZ0AZEIQRik
+K2+ATPUKNMdeLi7QrU8=
+</Modulus>
+<Exponent xmlns="http://www.w3.org/2000/09/xmldsig#">AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+</KeyInfo>
+</Signature></RESUMEN>

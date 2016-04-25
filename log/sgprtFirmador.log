@@ -1,0 +1,2245 @@
+[ INFO][2015-09-21 01:11:44,196] - -------------------------
+[ INFO][2015-09-21 01:11:44,196] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2015-09-21 01:11:44,196] - -------------------------
+[ INFO][2015-09-21 01:11:44,196] - No existe directorio front end: W:\DRV-SYST\MTT\LMXinput
+[ INFO][2015-09-21 01:11:44,196] - No existe directorio front end template: W:\DRV-SYST\MTT\LMXinput\template
+[ INFO][2015-09-21 01:11:44,196] - Entrada: F:\proyectos\PRT\drv-sign\XMLinput
+[ INFO][2015-09-21 01:11:44,196] - Salida: F:\proyectos\PRT\drv-sign\XMLoutput
+[ INFO][2015-09-21 01:11:44,196] - Respuestas: F:\proyectos\PRT\drv-sign\XMLrespuesta
+[ INFO][2015-09-21 01:11:44,196] - Procesados: F:\proyectos\PRT\drv-sign\XMLenviados
+[ INFO][2015-09-21 01:11:44,196] - Errores: F:\proyectos\PRT\drv-sign\XMLerrores
+[ INFO][2015-09-21 01:11:44,399] - -------------------------
+[ INFO][2015-09-21 01:11:44,399] - Buscando Driver eToken...
+[ WARN][2015-09-21 01:11:44,446] - Error al inicializar certificado x509
+java.lang.RuntimeException: Driver eToken no ha sido instalado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:51)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6297)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+	at java.awt.Component.processEvent(Component.java:6062)
+	at java.awt.Container.processEvent(Container.java:2039)
+	at java.awt.Component.dispatchEventImpl(Component.java:4660)
+	at java.awt.Container.dispatchEventImpl(Container.java:2097)
+	at java.awt.Component.dispatchEvent(Component.java:4488)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4575)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4236)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4166)
+	at java.awt.Container.dispatchEventImpl(Container.java:2083)
+	at java.awt.Window.dispatchEventImpl(Window.java:2489)
+	at java.awt.Component.dispatchEvent(Component.java:4488)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:674)
+	at java.awt.EventQueue.access$400(EventQueue.java:81)
+	at java.awt.EventQueue$2.run(EventQueue.java:633)
+	at java.awt.EventQueue$2.run(EventQueue.java:631)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:647)
+	at java.awt.EventQueue$3.run(EventQueue.java:645)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:644)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+Caused by: java.security.ProviderException: Error parsing configuration
+	at sun.security.pkcs11.Config.getConfig(Config.java:54)
+	at sun.security.pkcs11.SunPKCS11.<init>(SunPKCS11.java:100)
+	at sun.security.pkcs11.SunPKCS11.<init>(SunPKCS11.java:76)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:48)
+	... 38 more
+Caused by: java.io.FileNotFoundException: config\pkcs11.config (El sistema no puede encontrar la ruta especificada)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at java.io.FileInputStream.<init>(FileInputStream.java:79)
+	at sun.security.pkcs11.Config.<init>(Config.java:128)
+	at sun.security.pkcs11.Config.getConfig(Config.java:50)
+	... 41 more
+[ INFO][2015-09-21 01:14:40,895] - -------------------------
+[ INFO][2015-09-21 01:14:40,895] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2015-09-21 01:14:40,895] - -------------------------
+[ INFO][2015-09-21 01:14:40,895] - Entrada: F:\proyectos\PRT\drv-sign\XMLinput
+[ INFO][2015-09-21 01:14:40,895] - Salida: F:\proyectos\PRT\drv-sign\XMLoutput
+[ INFO][2015-09-21 01:14:40,895] - Respuestas: F:\proyectos\PRT\drv-sign\XMLrespuesta
+[ INFO][2015-09-21 01:14:40,895] - Procesados: F:\proyectos\PRT\drv-sign\XMLenviados
+[ INFO][2015-09-21 01:14:40,895] - Errores: F:\proyectos\PRT\drv-sign\XMLerrores
+[ INFO][2015-09-21 01:14:41,098] - -------------------------
+[ INFO][2015-09-21 01:14:41,098] - Buscando Driver eToken...
+[ WARN][2015-09-21 01:14:41,114] - Error al inicializar certificado x509
+java.lang.RuntimeException: Driver eToken no ha sido instalado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:51)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6297)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+	at java.awt.Component.processEvent(Component.java:6062)
+	at java.awt.Container.processEvent(Container.java:2039)
+	at java.awt.Component.dispatchEventImpl(Component.java:4660)
+	at java.awt.Container.dispatchEventImpl(Container.java:2097)
+	at java.awt.Component.dispatchEvent(Component.java:4488)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4575)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4236)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4166)
+	at java.awt.Container.dispatchEventImpl(Container.java:2083)
+	at java.awt.Window.dispatchEventImpl(Window.java:2489)
+	at java.awt.Component.dispatchEvent(Component.java:4488)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:674)
+	at java.awt.EventQueue.access$400(EventQueue.java:81)
+	at java.awt.EventQueue$2.run(EventQueue.java:633)
+	at java.awt.EventQueue$2.run(EventQueue.java:631)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:647)
+	at java.awt.EventQueue$3.run(EventQueue.java:645)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:644)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+Caused by: java.security.ProviderException: Library c:/WINDOWS/system32/eTPKCS11.dll does not exist
+	at sun.security.pkcs11.SunPKCS11.<init>(SunPKCS11.java:109)
+	at sun.security.pkcs11.SunPKCS11.<init>(SunPKCS11.java:76)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:48)
+	... 38 more
+[ INFO][2016-03-30 21:35:06,527] - -------------------------
+[ INFO][2016-03-30 21:35:06,543] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-03-30 21:35:06,543] - -------------------------
+[ INFO][2016-03-30 21:35:06,543] - No existe directorio front end: LMXinput
+[ INFO][2016-03-30 21:35:06,543] - No existe directorio front end template: LMXinput\template
+[ERROR][2016-03-30 21:35:06,558] - No existe directorio entrada: XMLinput
+[ INFO][2016-03-30 21:39:07,220] - -------------------------
+[ INFO][2016-03-30 21:39:07,220] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-03-30 21:39:07,220] - -------------------------
+[ INFO][2016-03-30 21:39:07,220] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-03-30 21:39:07,220] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-03-30 21:39:07,220] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-03-30 21:39:07,220] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-03-30 21:39:07,220] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-03-30 21:39:08,095] - -------------------------
+[ INFO][2016-03-30 21:39:08,095] - Buscando Driver eToken...
+[ INFO][2016-03-30 22:25:35,974] - -------------------------
+[ INFO][2016-03-30 22:25:35,989] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-03-30 22:25:35,989] - -------------------------
+[ INFO][2016-03-30 22:25:36,005] - No existe directorio front end: LMXinput
+[ INFO][2016-03-30 22:25:36,005] - No existe directorio front end template: LMXinput\template
+[ERROR][2016-03-30 22:25:36,005] - No existe directorio entrada: XMLinput
+[ INFO][2016-03-30 22:25:59,567] - -------------------------
+[ INFO][2016-03-30 22:25:59,567] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-03-30 22:25:59,567] - -------------------------
+[ INFO][2016-03-30 22:25:59,567] - No existe directorio front end: LMXinput
+[ INFO][2016-03-30 22:25:59,567] - No existe directorio front end template: LMXinput\template
+[ERROR][2016-03-30 22:25:59,567] - No existe directorio entrada: XMLinput
+[ INFO][2016-03-30 22:26:18,942] - -------------------------
+[ INFO][2016-03-30 22:26:18,958] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-03-30 22:26:18,958] - -------------------------
+[ INFO][2016-03-30 22:26:18,958] - No existe directorio front end: LMXinput
+[ INFO][2016-03-30 22:26:18,958] - No existe directorio front end template: LMXinput\template
+[ERROR][2016-03-30 22:26:18,958] - No existe directorio entrada: XMLinput
+[ INFO][2016-03-30 22:27:38,440] - -------------------------
+[ INFO][2016-03-30 22:27:38,440] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-03-30 22:27:38,440] - -------------------------
+[ERROR][2016-03-30 22:27:38,440] - No existe directorio entrada: XMLinput
+[ INFO][2016-03-30 22:28:07,537] - -------------------------
+[ INFO][2016-03-30 22:28:07,537] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-03-30 22:28:07,537] - -------------------------
+[ INFO][2016-03-30 22:28:07,553] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-03-30 22:28:07,553] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-03-30 22:28:07,553] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-03-30 22:28:07,553] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-03-30 22:28:07,553] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-03-30 22:28:08,881] - -------------------------
+[ INFO][2016-03-30 22:28:08,881] - Buscando Driver eToken...
+[ INFO][2016-03-30 22:38:13,544] - -------------------------
+[ INFO][2016-03-30 22:38:13,544] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-03-30 22:38:13,560] - -------------------------
+[ INFO][2016-03-30 22:38:13,560] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-03-30 22:38:13,560] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-03-30 22:38:13,560] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-03-30 22:38:13,560] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-03-30 22:38:13,560] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-03-30 22:38:14,200] - -------------------------
+[ INFO][2016-03-30 22:38:14,200] - Buscando Driver eToken...
+[ INFO][2016-04-01 00:39:56,928] - -------------------------
+[ INFO][2016-04-01 00:39:56,944] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 00:39:56,944] - -------------------------
+[ INFO][2016-04-01 00:39:56,944] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 00:39:56,944] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 00:39:56,944] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 00:39:56,944] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 00:39:56,944] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 00:39:58,538] - -------------------------
+[ INFO][2016-04-01 00:39:58,538] - Buscando Driver eToken...
+[ INFO][2016-04-01 00:42:59,948] - -------------------------
+[ INFO][2016-04-01 00:42:59,948] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 00:42:59,948] - -------------------------
+[ INFO][2016-04-01 00:42:59,948] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 00:42:59,948] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 00:42:59,948] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 00:42:59,963] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 00:42:59,963] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 00:43:00,620] - -------------------------
+[ INFO][2016-04-01 00:43:00,620] - Buscando Driver eToken...
+[ INFO][2016-04-01 01:08:35,123] - -------------------------
+[ INFO][2016-04-01 01:08:35,138] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 01:08:35,138] - -------------------------
+[ INFO][2016-04-01 01:08:35,154] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 01:08:35,154] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 01:08:35,154] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 01:08:35,154] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 01:08:35,154] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 01:08:35,685] - -------------------------
+[ INFO][2016-04-01 01:08:35,685] - Buscando Driver eToken...
+[ INFO][2016-04-01 01:08:36,404] - -------------------------
+[ INFO][2016-04-01 01:08:36,404] - Driver eToken instalado
+[ INFO][2016-04-01 01:08:36,404] - -------------------------
+[ WARN][2016-04-01 01:08:36,419] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:67)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:64)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-01 01:10:00,115] - -------------------------
+[ INFO][2016-04-01 01:10:00,162] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 01:10:00,162] - -------------------------
+[ INFO][2016-04-01 01:10:00,162] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 01:10:00,162] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 01:10:00,162] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 01:10:00,162] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 01:10:00,162] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 01:10:02,724] - -------------------------
+[ INFO][2016-04-01 01:10:02,724] - Buscando Driver eToken...
+[ INFO][2016-04-01 01:10:03,708] - -------------------------
+[ INFO][2016-04-01 01:10:03,708] - Driver eToken instalado
+[ INFO][2016-04-01 01:10:03,724] - -------------------------
+[ WARN][2016-04-01 01:10:03,755] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:67)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$300(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(Unknown Source)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:64)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(Unknown Source)
+	at java.security.Security.getImpl(Unknown Source)
+	... 40 more
+[ INFO][2016-04-01 01:11:25,808] - -------------------------
+[ INFO][2016-04-01 01:11:25,839] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 01:11:25,839] - -------------------------
+[ INFO][2016-04-01 01:11:25,839] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 01:11:25,839] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 01:11:25,839] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 01:11:25,839] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 01:11:25,839] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 01:11:26,714] - -------------------------
+[ INFO][2016-04-01 01:11:26,714] - Buscando Driver eToken...
+[ INFO][2016-04-01 01:11:27,042] - -------------------------
+[ INFO][2016-04-01 01:11:27,042] - Driver eToken instalado
+[ INFO][2016-04-01 01:11:27,042] - -------------------------
+[ WARN][2016-04-01 01:11:27,058] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:67)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:64)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-01 01:13:35,277] - -------------------------
+[ INFO][2016-04-01 01:13:35,277] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 01:13:35,277] - -------------------------
+[ INFO][2016-04-01 01:13:35,277] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 01:13:35,277] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 01:13:35,277] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 01:13:35,277] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 01:13:35,277] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 01:13:35,699] - -------------------------
+[ INFO][2016-04-01 01:13:35,699] - Buscando Driver eToken...
+[ INFO][2016-04-01 01:13:38,449] - -------------------------
+[ INFO][2016-04-01 01:13:38,449] - Driver eToken instalado
+[ INFO][2016-04-01 01:13:38,449] - -------------------------
+[ INFO][2016-04-01 01:13:38,527] - -------------------------
+[ INFO][2016-04-01 01:13:38,527] - eToken encontrado
+[ INFO][2016-04-01 01:13:38,527] - -------------------------
+[ INFO][2016-04-01 01:13:38,917] - Usuario:le-aa5fe671-e5b2-4911-9227-d216f37212a0
+[ INFO][2016-04-01 01:13:38,949] - ------------------------
+[ INFO][2016-04-01 01:13:38,949] - Rut: 13255217-7
+[ INFO][2016-04-01 01:13:38,949] - ------------------------
+[ INFO][2016-04-01 01:13:38,964] - -------------------------
+[ INFO][2016-04-01 01:13:38,980] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-01 01:13:38,996] - -------------------------
+[ INFO][2016-04-01 01:15:22,111] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA2.xml
+[ INFO][2016-04-01 01:23:57,838] - -------------------------
+[ INFO][2016-04-01 01:23:57,854] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 01:23:57,854] - -------------------------
+[ INFO][2016-04-01 01:23:57,854] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 01:23:57,854] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 01:23:57,854] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 01:23:57,854] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 01:23:57,854] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 01:23:58,479] - -------------------------
+[ INFO][2016-04-01 01:23:58,479] - Buscando Driver eToken...
+[ INFO][2016-04-01 01:23:58,666] - -------------------------
+[ INFO][2016-04-01 01:23:58,666] - Driver eToken instalado
+[ INFO][2016-04-01 01:23:58,666] - -------------------------
+[ WARN][2016-04-01 01:23:58,682] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:67)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:64)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-01 01:24:00,291] - -------------------------
+[ INFO][2016-04-01 01:24:00,291] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 01:24:00,291] - -------------------------
+[ INFO][2016-04-01 01:24:00,291] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 01:24:00,291] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 01:24:00,291] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 01:24:00,291] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 01:24:00,291] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 01:24:00,291] - -------------------------
+[ INFO][2016-04-01 01:24:00,291] - Buscando Driver eToken...
+[ INFO][2016-04-01 01:24:00,291] - -------------------------
+[ INFO][2016-04-01 01:24:00,291] - Driver eToken instalado
+[ INFO][2016-04-01 01:24:00,291] - -------------------------
+[ WARN][2016-04-01 01:24:00,291] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:67)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:64)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-01 01:25:30,057] - -------------------------
+[ INFO][2016-04-01 01:25:30,057] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 01:25:30,057] - -------------------------
+[ INFO][2016-04-01 01:25:30,057] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 01:25:30,057] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 01:25:30,057] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 01:25:30,057] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 01:25:30,057] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 01:25:30,463] - -------------------------
+[ INFO][2016-04-01 01:25:30,463] - Buscando Driver eToken...
+[ INFO][2016-04-01 01:25:30,635] - -------------------------
+[ INFO][2016-04-01 01:25:30,635] - Driver eToken instalado
+[ INFO][2016-04-01 01:25:30,635] - -------------------------
+[ WARN][2016-04-01 01:25:30,635] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:67)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:64)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-01 01:26:37,979] - -------------------------
+[ INFO][2016-04-01 01:26:37,979] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 01:26:37,979] - -------------------------
+[ INFO][2016-04-01 01:26:37,979] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 01:26:37,979] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 01:26:37,979] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 01:26:37,979] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 01:26:37,979] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 01:26:38,369] - -------------------------
+[ INFO][2016-04-01 01:26:38,369] - Buscando Driver eToken...
+[ INFO][2016-04-01 01:26:38,541] - -------------------------
+[ INFO][2016-04-01 01:26:38,541] - Driver eToken instalado
+[ INFO][2016-04-01 01:26:38,541] - -------------------------
+[ WARN][2016-04-01 01:26:38,557] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:67)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:64)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-01 01:27:21,651] - -------------------------
+[ INFO][2016-04-01 01:27:21,651] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 01:27:21,651] - -------------------------
+[ INFO][2016-04-01 01:27:21,651] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 01:27:21,651] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 01:27:21,651] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 01:27:21,651] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 01:27:21,651] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 01:27:22,057] - -------------------------
+[ INFO][2016-04-01 01:27:22,057] - Buscando Driver eToken...
+[ INFO][2016-04-01 01:27:22,244] - -------------------------
+[ INFO][2016-04-01 01:27:22,244] - Driver eToken instalado
+[ INFO][2016-04-01 01:27:22,244] - -------------------------
+[ WARN][2016-04-01 01:27:22,260] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:67)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:64)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-01 01:32:52,298] - -------------------------
+[ INFO][2016-04-01 01:32:52,298] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 01:32:52,298] - -------------------------
+[ INFO][2016-04-01 01:32:52,298] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 01:32:52,298] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 01:32:52,314] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 01:32:52,314] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 01:32:52,314] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 01:32:52,704] - -------------------------
+[ INFO][2016-04-01 01:32:52,704] - Buscando Driver eToken...
+[ INFO][2016-04-01 01:32:54,611] - -------------------------
+[ INFO][2016-04-01 01:32:54,611] - Driver eToken instalado
+[ INFO][2016-04-01 01:32:54,611] - -------------------------
+[ INFO][2016-04-01 01:32:54,657] - -------------------------
+[ INFO][2016-04-01 01:32:54,657] - eToken encontrado
+[ INFO][2016-04-01 01:32:54,657] - -------------------------
+[ INFO][2016-04-01 01:32:54,892] - Usuario:le-aa5fe671-e5b2-4911-9227-d216f37212a0
+[ INFO][2016-04-01 01:32:54,907] - ------------------------
+[ INFO][2016-04-01 01:32:54,923] - Rut: 13255217-7
+[ INFO][2016-04-01 01:32:54,923] - ------------------------
+[ INFO][2016-04-01 01:32:54,923] - -------------------------
+[ INFO][2016-04-01 01:32:54,954] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-01 01:32:54,954] - -------------------------
+[ INFO][2016-04-01 01:32:54,986] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA2.xml
+[ INFO][2016-04-01 01:32:55,642] - CERTIFICADO
+[ INFO][2016-04-01 01:32:55,892] - CertificadoRevisionTecnicaTipoA2_RTOO12.lmx binding Ok.
+[ INFO][2016-04-01 01:32:56,064] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA2_RTOO12.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.DocumentoEnvio.getId(DocumentoEnvio.java:72)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.firmar(FirmarXMLPKCS11.java:130)
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:215)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:119)
+[ INFO][2016-04-01 01:56:17,638] - -------------------------
+[ INFO][2016-04-01 01:56:17,638] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 01:56:17,638] - -------------------------
+[ INFO][2016-04-01 01:56:17,638] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 01:56:17,638] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 01:56:17,638] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 01:56:17,653] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 01:56:17,653] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 01:56:18,075] - -------------------------
+[ INFO][2016-04-01 01:56:18,075] - Buscando Driver eToken...
+[ INFO][2016-04-01 01:56:19,825] - -------------------------
+[ INFO][2016-04-01 01:56:19,825] - Driver eToken instalado
+[ INFO][2016-04-01 01:56:19,841] - -------------------------
+[ INFO][2016-04-01 01:56:19,872] - -------------------------
+[ INFO][2016-04-01 01:56:19,872] - eToken encontrado
+[ INFO][2016-04-01 01:56:19,872] - -------------------------
+[ INFO][2016-04-01 01:56:20,060] - Usuario:le-aa5fe671-e5b2-4911-9227-d216f37212a0
+[ INFO][2016-04-01 01:56:20,075] - ------------------------
+[ INFO][2016-04-01 01:56:20,075] - Rut: 13255217-7
+[ INFO][2016-04-01 01:56:20,075] - ------------------------
+[ INFO][2016-04-01 01:56:20,091] - -------------------------
+[ INFO][2016-04-01 01:56:20,091] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-01 01:56:20,106] - -------------------------
+[ INFO][2016-04-01 01:58:25,256] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA2.xml
+[ INFO][2016-04-01 01:58:25,897] - CERTIFICADO
+[ INFO][2016-04-01 01:58:26,240] - CertificadoRevisionTecnicaTipoA2_RTOO12.lmx binding Ok.
+[ INFO][2016-04-01 01:58:26,365] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA2_RTOO12.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.DocumentoEnvio.getId(DocumentoEnvio.java:72)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.firmar(FirmarXMLPKCS11.java:130)
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:215)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:119)
+[ INFO][2016-04-01 02:25:54,000] - -------------------------
+[ INFO][2016-04-01 02:25:54,000] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 02:25:54,000] - -------------------------
+[ INFO][2016-04-01 02:25:54,000] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 02:25:54,000] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 02:25:54,000] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 02:25:54,000] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 02:25:54,000] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 02:25:54,406] - -------------------------
+[ INFO][2016-04-01 02:25:54,421] - Buscando Driver eToken...
+[ INFO][2016-04-01 02:25:56,375] - -------------------------
+[ INFO][2016-04-01 02:25:56,375] - Driver eToken instalado
+[ INFO][2016-04-01 02:25:56,375] - -------------------------
+[ INFO][2016-04-01 02:25:56,421] - -------------------------
+[ INFO][2016-04-01 02:25:56,421] - eToken encontrado
+[ INFO][2016-04-01 02:25:56,421] - -------------------------
+[ INFO][2016-04-01 02:25:56,640] - Usuario:le-aa5fe671-e5b2-4911-9227-d216f37212a0
+[ INFO][2016-04-01 02:25:56,656] - ------------------------
+[ INFO][2016-04-01 02:25:56,656] - Rut: 13255217-7
+[ INFO][2016-04-01 02:25:56,656] - ------------------------
+[ INFO][2016-04-01 02:25:56,687] - -------------------------
+[ INFO][2016-04-01 02:25:56,687] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-01 02:25:56,687] - -------------------------
+[ INFO][2016-04-01 02:26:19,792] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA2.xml
+[ INFO][2016-04-01 02:26:20,339] - CERTIFICADO
+[ INFO][2016-04-01 02:26:20,808] - CertificadoRevisionTecnicaTipoA2_RTOO12.lmx binding Ok.
+[ INFO][2016-04-01 02:26:22,027] - ------------------------
+[ INFO][2016-04-01 02:26:22,027] - CertificadoRevisionTecnicaTipoA2_RTOO12.xml firmado Ok.
+[ INFO][2016-04-01 02:26:22,027] - -------------------------
+[ INFO][2016-04-01 02:26:22,199] - -------------------------------
+[ INFO][2016-04-01 02:26:22,199] - Validación de Firma Digital
+[ INFO][2016-04-01 02:26:22,199] - -------------------------------
+[ INFO][2016-04-01 02:26:22,230] - Firma Digital Válida.
+[ INFO][2016-04-01 02:26:22,230] - -------------------------------
+[ INFO][2016-04-01 02:26:22,636] - -------------------------------
+[ INFO][2016-04-01 02:26:22,652] - Enviando Documento Electr?nico
+[ INFO][2016-04-01 02:26:22,652] - -------------------------------
+[ INFO][2016-04-01 02:26:22,652] - Archivo a enviar: F:\proyectos\PRT\drv-sign\Files\XMLoutput\CertificadoRevisionTecnicaTipoA2_RTOO12.xml
+[ INFO][2016-04-01 02:26:46,888] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA2_RTOO12.xml
+[AC13] cl.mtt.sgprt.cliente.SGPRTException: Servidor no responde.
+	at cl.mtt.sgprt.cliente.EnviadorSGPRT.enviarCRT(EnviadorSGPRT.java:64)
+	at cl.mtt.sgprt.sign.Envio.envio(Envio.java:36)
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:224)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:119)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at org.apache.axis.AxisFault.makeFault(AxisFault.java:101)
+	at org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:154)
+	at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:32)
+	at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:118)
+	at org.apache.axis.SimpleChain.invoke(SimpleChain.java:83)
+	at org.apache.axis.client.AxisClient.invoke(AxisClient.java:165)
+	at org.apache.axis.client.Call.invokeEngine(Call.java:2784)
+	at org.apache.axis.client.Call.invoke(Call.java:2767)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at cl.mtt.sgprt.ws.recepcionCrt.RecepcionCrtRemoteBindingStub.recepcionCRT(RecepcionCrtRemoteBindingStub.java:125)
+	at cl.mtt.sgprt.ws.recepcionCrt.RecepcionCrtRemoteProxy.recepcionCRT(RecepcionCrtRemoteProxy.java:59)
+	at cl.mtt.sgprt.cliente.EnviadorSGPRT.enviarCRT(EnviadorSGPRT.java:61)
+	... 3 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.axis.components.net.DefaultSocketFactory.create(DefaultSocketFactory.java:153)
+	at org.apache.axis.components.net.DefaultSocketFactory.create(DefaultSocketFactory.java:120)
+	at org.apache.axis.transport.http.HTTPSender.getSocket(HTTPSender.java:191)
+	at org.apache.axis.transport.http.HTTPSender.writeToSocket(HTTPSender.java:404)
+	at org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:138)
+	... 15 more
+[ INFO][2016-04-01 02:27:50,012] - -------------------------
+[ INFO][2016-04-01 02:27:50,012] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-01 02:27:50,012] - -------------------------
+[ INFO][2016-04-01 02:27:50,012] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-01 02:27:50,012] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-01 02:27:50,012] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-01 02:27:50,012] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-01 02:27:50,012] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-01 02:27:50,441] - -------------------------
+[ INFO][2016-04-01 02:27:50,441] - Buscando Driver eToken...
+[ INFO][2016-04-01 02:27:52,427] - -------------------------
+[ INFO][2016-04-01 02:27:52,427] - Driver eToken instalado
+[ INFO][2016-04-01 02:27:52,444] - -------------------------
+[ INFO][2016-04-01 02:27:52,478] - -------------------------
+[ INFO][2016-04-01 02:27:52,478] - eToken encontrado
+[ INFO][2016-04-01 02:27:52,478] - -------------------------
+[ INFO][2016-04-01 02:27:52,697] - Usuario:le-aa5fe671-e5b2-4911-9227-d216f37212a0
+[ INFO][2016-04-01 02:27:52,731] - ------------------------
+[ INFO][2016-04-01 02:27:52,731] - Rut: 13255217-7
+[ INFO][2016-04-01 02:27:52,731] - ------------------------
+[ INFO][2016-04-01 02:27:52,731] - -------------------------
+[ INFO][2016-04-01 02:27:52,764] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-01 02:27:52,764] - -------------------------
+[ INFO][2016-04-09 12:35:25,558] - -------------------------
+[ INFO][2016-04-09 12:35:25,558] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-09 12:35:25,558] - -------------------------
+[ INFO][2016-04-09 12:35:25,558] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-09 12:35:25,558] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-09 12:35:25,576] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-09 12:35:25,576] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-09 12:35:25,576] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-09 12:35:26,187] - -------------------------
+[ INFO][2016-04-09 12:35:26,187] - Buscando Driver eToken...
+[ INFO][2016-04-09 12:35:28,650] - -------------------------
+[ INFO][2016-04-09 12:35:28,650] - Driver eToken instalado
+[ INFO][2016-04-09 12:35:28,650] - -------------------------
+[ INFO][2016-04-09 12:35:28,722] - -------------------------
+[ INFO][2016-04-09 12:35:28,722] - eToken encontrado
+[ INFO][2016-04-09 12:35:28,722] - -------------------------
+[ INFO][2016-04-09 12:35:29,010] - Usuario:le-aa5fe671-e5b2-4911-9227-d216f37212a0
+[ INFO][2016-04-09 12:35:29,028] - ------------------------
+[ INFO][2016-04-09 12:35:29,028] - Rut: 13255217-7
+[ INFO][2016-04-09 12:35:29,046] - ------------------------
+[ INFO][2016-04-09 12:35:29,064] - -------------------------
+[ INFO][2016-04-09 12:35:29,082] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-09 12:35:29,082] - -------------------------
+[ INFO][2016-04-09 12:36:01,114] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-09 12:36:01,770] - CERTIFICADO
+[ INFO][2016-04-09 12:36:01,861] - CertificadoAnalisisGasesTipoB.lmx binding Ok.
+[ INFO][2016-04-09 12:36:02,818] - ------------------------
+[ INFO][2016-04-09 12:36:02,831] - CertificadoAnalisisGasesTipoB.xml firmado Ok.
+[ INFO][2016-04-09 12:36:02,831] - -------------------------
+[ INFO][2016-04-09 12:36:03,028] - -------------------------------
+[ INFO][2016-04-09 12:36:03,028] - Validación de Firma Digital
+[ INFO][2016-04-09 12:36:03,028] - -------------------------------
+[ INFO][2016-04-09 12:36:03,067] - Firma Digital Válida.
+[ INFO][2016-04-09 12:36:03,080] - -------------------------------
+[ INFO][2016-04-09 12:36:03,369] - -------------------------------
+[ INFO][2016-04-09 12:36:03,382] - Enviando Documento Electr?nico
+[ INFO][2016-04-09 12:36:03,395] - -------------------------------
+[ INFO][2016-04-09 12:36:03,395] - Archivo a enviar: F:\proyectos\PRT\drv-sign\Files\XMLoutput\CertificadoAnalisisGasesTipoB_001.xml
+[ INFO][2016-04-09 12:36:05,208] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB.xml
+[AC13] cl.mtt.sgprt.cliente.SGPRTException: Servidor no responde.
+	at cl.mtt.sgprt.cliente.EnviadorSGPRT.enviarCRT(EnviadorSGPRT.java:64)
+	at cl.mtt.sgprt.sign.Envio.envio(Envio.java:36)
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:224)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:119)
+Caused by: java.net.SocketException: Network is unreachable: connect
+	at org.apache.axis.AxisFault.makeFault(AxisFault.java:101)
+	at org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:154)
+	at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:32)
+	at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:118)
+	at org.apache.axis.SimpleChain.invoke(SimpleChain.java:83)
+	at org.apache.axis.client.AxisClient.invoke(AxisClient.java:165)
+	at org.apache.axis.client.Call.invokeEngine(Call.java:2784)
+	at org.apache.axis.client.Call.invoke(Call.java:2767)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at cl.mtt.sgprt.ws.recepcionCrt.RecepcionCrtRemoteBindingStub.recepcionCRT(RecepcionCrtRemoteBindingStub.java:125)
+	at cl.mtt.sgprt.ws.recepcionCrt.RecepcionCrtRemoteProxy.recepcionCRT(RecepcionCrtRemoteProxy.java:59)
+	at cl.mtt.sgprt.cliente.EnviadorSGPRT.enviarCRT(EnviadorSGPRT.java:61)
+	... 3 more
+Caused by: java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.axis.components.net.DefaultSocketFactory.create(DefaultSocketFactory.java:153)
+	at org.apache.axis.components.net.DefaultSocketFactory.create(DefaultSocketFactory.java:120)
+	at org.apache.axis.transport.http.HTTPSender.getSocket(HTTPSender.java:191)
+	at org.apache.axis.transport.http.HTTPSender.writeToSocket(HTTPSender.java:404)
+	at org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:138)
+	... 15 more
+[ INFO][2016-04-10 11:46:11,349] - -------------------------
+[ INFO][2016-04-10 11:46:11,396] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 11:46:11,396] - -------------------------
+[ INFO][2016-04-10 11:46:11,396] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 11:46:11,396] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 11:46:11,396] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 11:46:11,396] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 11:46:11,396] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 11:46:12,099] - -------------------------
+[ INFO][2016-04-10 11:46:12,099] - Buscando Driver eToken...
+[ INFO][2016-04-10 11:46:12,318] - -------------------------
+[ INFO][2016-04-10 11:46:12,318] - Driver eToken instalado
+[ INFO][2016-04-10 11:46:12,318] - -------------------------
+[ WARN][2016-04-10 11:46:12,318] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:63)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:60)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-10 11:46:56,594] - -------------------------
+[ INFO][2016-04-10 11:46:56,594] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 11:46:56,594] - -------------------------
+[ INFO][2016-04-10 11:46:56,594] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 11:46:56,594] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 11:46:56,594] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 11:46:56,594] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 11:46:56,594] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 11:46:57,188] - -------------------------
+[ INFO][2016-04-10 11:46:57,188] - Buscando Driver eToken...
+[ INFO][2016-04-10 11:46:57,376] - -------------------------
+[ INFO][2016-04-10 11:46:57,376] - Driver eToken instalado
+[ INFO][2016-04-10 11:46:57,376] - -------------------------
+[ WARN][2016-04-10 11:46:57,391] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:63)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:60)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-10 11:47:26,469] - -------------------------
+[ INFO][2016-04-10 11:47:26,469] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 11:47:26,469] - -------------------------
+[ INFO][2016-04-10 11:47:26,469] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 11:47:26,469] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 11:47:26,469] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 11:47:26,469] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 11:47:26,469] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 11:47:27,032] - -------------------------
+[ INFO][2016-04-10 11:47:27,032] - Buscando Driver eToken...
+[ INFO][2016-04-10 11:47:27,235] - -------------------------
+[ INFO][2016-04-10 11:47:27,235] - Driver eToken instalado
+[ INFO][2016-04-10 11:47:27,235] - -------------------------
+[ WARN][2016-04-10 11:47:27,251] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:63)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:60)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-10 11:48:27,765] - -------------------------
+[ INFO][2016-04-10 11:48:27,765] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 11:48:27,765] - -------------------------
+[ INFO][2016-04-10 11:48:27,765] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 11:48:27,765] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 11:48:27,765] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 11:48:27,765] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 11:48:27,765] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 11:48:28,218] - -------------------------
+[ INFO][2016-04-10 11:48:28,218] - Buscando Driver eToken...
+[ INFO][2016-04-10 11:48:30,375] - -------------------------
+[ INFO][2016-04-10 11:48:30,375] - Driver eToken instalado
+[ INFO][2016-04-10 11:48:30,375] - -------------------------
+[ INFO][2016-04-10 11:48:30,421] - -------------------------
+[ INFO][2016-04-10 11:48:30,421] - eToken encontrado
+[ INFO][2016-04-10 11:48:30,437] - -------------------------
+[ INFO][2016-04-10 11:48:30,656] - Usuario:le-aa5fe671-e5b2-4911-9227-d216f37212a0
+[ INFO][2016-04-10 11:48:30,671] - ------------------------
+[ INFO][2016-04-10 11:48:30,687] - Rut: 13255217-7
+[ INFO][2016-04-10 11:48:30,687] - ------------------------
+[ INFO][2016-04-10 11:48:30,687] - -------------------------
+[ INFO][2016-04-10 11:48:30,718] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 11:48:30,734] - -------------------------
+[ INFO][2016-04-10 11:48:55,808] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 11:48:56,433] - CERTIFICADO
+[ INFO][2016-04-10 11:48:56,652] - CertificadoAnalisisGasesTipoB_DXDR57.lmx binding Ok.
+[ INFO][2016-04-10 11:48:57,746] - ------------------------
+[ INFO][2016-04-10 11:48:57,746] - CertificadoAnalisisGasesTipoB_DXDR57.xml firmado Ok.
+[ INFO][2016-04-10 11:48:57,746] - -------------------------
+[ INFO][2016-04-10 11:48:57,886] - -------------------------------
+[ INFO][2016-04-10 11:48:57,886] - Validación de Firma Digital
+[ INFO][2016-04-10 11:48:57,902] - -------------------------------
+[ INFO][2016-04-10 11:48:57,933] - Firma Digital Válida.
+[ INFO][2016-04-10 11:48:57,933] - -------------------------------
+[ INFO][2016-04-10 11:48:58,168] - -------------------------------
+[ INFO][2016-04-10 11:48:58,183] - Enviando Documento Electr?nico
+[ INFO][2016-04-10 11:48:58,183] - -------------------------------
+[ INFO][2016-04-10 11:48:58,183] - Archivo a enviar: F:\proyectos\PRT\drv-sign\Files\XMLoutput\CertificadoAnalisisGasesTipoB_DXDR57.xml
+[ INFO][2016-04-10 15:28:51,518] - -------------------------
+[ INFO][2016-04-10 15:28:51,534] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 15:28:51,534] - -------------------------
+[ INFO][2016-04-10 15:28:51,534] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 15:28:51,534] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 15:28:51,534] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 15:28:51,534] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 15:28:51,534] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 15:28:51,752] - -------------------------
+[ INFO][2016-04-10 15:28:51,752] - Buscando Driver eToken...
+[ INFO][2016-04-10 15:28:51,846] - -------------------------
+[ INFO][2016-04-10 15:28:51,846] - Driver eToken instalado
+[ INFO][2016-04-10 15:28:51,846] - -------------------------
+[ WARN][2016-04-10 15:28:51,846] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:63)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:60)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-10 15:42:54,383] - -------------------------
+[ INFO][2016-04-10 15:42:54,383] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 15:42:54,383] - -------------------------
+[ INFO][2016-04-10 15:42:54,399] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 15:42:54,399] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 15:42:54,399] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 15:42:54,399] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 15:42:54,399] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 15:42:54,821] - -------------------------
+[ INFO][2016-04-10 15:42:54,821] - Buscando Driver eToken...
+[ INFO][2016-04-10 15:42:54,992] - -------------------------
+[ INFO][2016-04-10 15:42:54,992] - Driver eToken instalado
+[ INFO][2016-04-10 15:42:54,992] - -------------------------
+[ WARN][2016-04-10 15:42:54,992] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:63)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:60)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-10 15:45:10,555] - -------------------------
+[ INFO][2016-04-10 15:45:10,555] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 15:45:10,555] - -------------------------
+[ INFO][2016-04-10 15:45:10,555] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 15:45:10,555] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 15:45:10,555] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 15:45:10,555] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 15:45:10,555] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 15:45:10,571] - -------------------------
+[ INFO][2016-04-10 15:45:10,571] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 15:45:10,571] - -------------------------
+[ INFO][2016-04-10 15:45:10,742] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_DXDR57.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:215)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:121)
+[ INFO][2016-04-10 15:47:00,452] - -------------------------
+[ INFO][2016-04-10 15:47:00,452] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 15:47:00,452] - -------------------------
+[ INFO][2016-04-10 15:47:00,452] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 15:47:00,452] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 15:47:00,452] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 15:47:00,452] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 15:47:00,452] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 15:47:00,452] - -------------------------
+[ INFO][2016-04-10 15:47:00,468] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 15:47:00,468] - -------------------------
+[ INFO][2016-04-10 15:47:20,539] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 15:48:35,883] - CERTIFICADO
+[ INFO][2016-04-10 15:54:22,977] - -------------------------
+[ INFO][2016-04-10 15:54:22,977] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 15:54:22,992] - -------------------------
+[ INFO][2016-04-10 15:54:22,992] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 15:54:22,992] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 15:54:22,992] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 15:54:22,992] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 15:54:22,992] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 15:54:22,992] - -------------------------
+[ INFO][2016-04-10 15:54:23,008] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 15:54:23,008] - -------------------------
+[ INFO][2016-04-10 15:54:23,071] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 15:54:33,133] - CERTIFICADO
+[ INFO][2016-04-10 16:10:51,001] - -------------------------
+[ INFO][2016-04-10 16:10:51,001] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 16:10:51,001] - -------------------------
+[ INFO][2016-04-10 16:10:51,001] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 16:10:51,001] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 16:10:51,001] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 16:10:51,001] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 16:10:51,001] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 16:10:51,017] - -------------------------
+[ INFO][2016-04-10 16:10:51,017] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 16:10:51,017] - -------------------------
+[ INFO][2016-04-10 16:10:51,079] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 16:10:55,142] - CERTIFICADO
+[ INFO][2016-04-10 16:12:37,189] - -------------------------
+[ INFO][2016-04-10 16:12:37,189] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 16:12:37,189] - -------------------------
+[ INFO][2016-04-10 16:12:37,189] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 16:12:37,189] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 16:12:37,189] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 16:12:37,189] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 16:12:37,189] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 16:12:37,189] - -------------------------
+[ INFO][2016-04-10 16:12:37,204] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 16:12:37,204] - -------------------------
+[ INFO][2016-04-10 16:12:37,251] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 16:13:07,345] - CERTIFICADO
+[ INFO][2016-04-10 16:15:12,636] - -------------------------
+[ INFO][2016-04-10 16:15:12,636] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 16:15:12,636] - -------------------------
+[ INFO][2016-04-10 16:15:12,636] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 16:15:12,636] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 16:15:12,636] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 16:15:12,636] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 16:15:12,636] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 16:15:12,636] - -------------------------
+[ INFO][2016-04-10 16:15:12,636] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 16:15:12,636] - -------------------------
+[ INFO][2016-04-10 16:15:12,698] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 16:15:15,745] - CERTIFICADO
+[ INFO][2016-04-10 16:16:33,245] - -------------------------
+[ INFO][2016-04-10 16:16:33,261] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 16:16:33,261] - -------------------------
+[ INFO][2016-04-10 16:16:33,261] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 16:16:33,261] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 16:16:33,261] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 16:16:33,261] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 16:16:33,261] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 16:16:33,261] - -------------------------
+[ INFO][2016-04-10 16:16:33,277] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 16:16:33,277] - -------------------------
+[ INFO][2016-04-10 16:16:33,339] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 16:16:36,355] - CERTIFICADO
+[ INFO][2016-04-10 16:17:42,285] - CertificadoAnalisisGasesTipoB_DXDR57.lmx binding Ok.
+[ INFO][2016-04-10 16:17:49,207] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_DXDR57.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:215)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:121)
+[ INFO][2016-04-10 16:18:57,375] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 16:19:02,781] - CERTIFICADO
+[ INFO][2016-04-10 16:19:02,860] - CertificadoAnalisisGasesTipoB_DXDR57.lmx binding Ok.
+[ INFO][2016-04-10 17:27:00,441] - -------------------------
+[ INFO][2016-04-10 17:27:00,457] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 17:27:00,457] - -------------------------
+[ INFO][2016-04-10 17:27:00,457] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 17:27:00,457] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 17:27:00,457] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 17:27:00,457] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 17:27:00,457] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 17:27:01,002] - -------------------------
+[ INFO][2016-04-10 17:27:01,002] - Buscando Driver eToken...
+[ INFO][2016-04-10 17:27:01,226] - -------------------------
+[ INFO][2016-04-10 17:27:01,226] - Driver eToken instalado
+[ INFO][2016-04-10 17:27:01,226] - -------------------------
+[ WARN][2016-04-10 17:27:01,240] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:63)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:60)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-10 17:28:11,379] - -------------------------
+[ INFO][2016-04-10 17:28:11,379] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 17:28:11,379] - -------------------------
+[ INFO][2016-04-10 17:28:11,379] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 17:28:11,379] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 17:28:11,379] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 17:28:11,379] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 17:28:11,379] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 17:28:11,379] - -------------------------
+[ INFO][2016-04-10 17:28:11,392] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 17:28:11,392] - -------------------------
+[ INFO][2016-04-10 17:28:11,457] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoB.xml
+[ INFO][2016-04-10 17:28:14,991] - CERTIFICADO
+[ INFO][2016-04-10 17:28:15,343] - CertificadoRevisionTecnicaTipoB_FRTV31.lmx binding Ok.
+[ INFO][2016-04-10 17:41:57,495] - -------------------------
+[ INFO][2016-04-10 17:41:57,495] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 17:41:57,495] - -------------------------
+[ INFO][2016-04-10 17:41:57,495] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 17:41:57,495] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 17:41:57,495] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 17:41:57,495] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 17:41:57,495] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 17:41:57,511] - -------------------------
+[ INFO][2016-04-10 17:41:57,511] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 17:41:57,511] - -------------------------
+[ INFO][2016-04-10 17:42:21,572] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoB.xml
+[ INFO][2016-04-10 17:42:22,760] - CERTIFICADO
+[ INFO][2016-04-10 17:42:23,154] - CertificadoRevisionTecnicaTipoB_FRTV31.lmx binding Ok.
+[ INFO][2016-04-10 17:42:23,170] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoB_FRTV31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 17:56:05,867] - -------------------------
+[ INFO][2016-04-10 17:56:05,867] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 17:56:05,867] - -------------------------
+[ INFO][2016-04-10 17:56:05,867] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 17:56:05,867] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 17:56:05,867] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 17:56:05,867] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 17:56:05,867] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 17:56:05,867] - -------------------------
+[ INFO][2016-04-10 17:56:05,883] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 17:56:05,883] - -------------------------
+[ INFO][2016-04-10 17:56:15,950] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 17:56:16,908] - CERTIFICADO
+[ INFO][2016-04-10 17:56:17,209] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 17:56:17,225] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:03:32,260] - -------------------------
+[ INFO][2016-04-10 18:03:32,260] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 18:03:32,260] - -------------------------
+[ INFO][2016-04-10 18:03:32,260] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 18:03:32,260] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 18:03:32,260] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 18:03:32,260] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 18:03:32,260] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 18:03:32,260] - -------------------------
+[ INFO][2016-04-10 18:03:32,275] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 18:03:32,275] - -------------------------
+[ INFO][2016-04-10 18:03:40,164] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoB.xml
+[ INFO][2016-04-10 18:03:40,614] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoB.xml
+[ INFO][2016-04-10 18:03:40,648] - CERTIFICADO
+[ INFO][2016-04-10 18:03:40,883] - CertificadoRevisionTecnicaTipoB_FRTV31.lmx binding Ok.
+[ INFO][2016-04-10 18:03:40,883] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoB_FRTV31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:03:41,052] - CERTIFICADO
+[ INFO][2016-04-10 18:03:41,102] - CertificadoRevisionTecnicaTipoB_FRTV31.lmx binding Ok.
+[ INFO][2016-04-10 18:03:41,102] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoB_FRTV31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:04:22,393] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoB.xml
+[ INFO][2016-04-10 18:04:22,409] - CERTIFICADO
+[ INFO][2016-04-10 18:04:22,565] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoB.xml
+[ INFO][2016-04-10 18:04:22,581] - CERTIFICADO
+[ INFO][2016-04-10 18:04:22,612] - CertificadoRevisionTecnicaTipoB_FRTV31.lmx binding Ok.
+[ INFO][2016-04-10 18:04:22,627] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoB_FRTV31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:04:22,784] - CertificadoRevisionTecnicaTipoB_FRTV31.lmx binding Ok.
+[ INFO][2016-04-10 18:04:22,799] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoB_FRTV31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:05:16,716] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 18:05:16,732] - CERTIFICADO
+[ INFO][2016-04-10 18:05:16,779] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 18:05:16,779] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:10:28,920] - -------------------------
+[ INFO][2016-04-10 18:10:28,920] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 18:10:28,920] - -------------------------
+[ INFO][2016-04-10 18:10:28,920] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 18:10:28,920] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 18:10:28,920] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 18:10:28,920] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 18:10:28,920] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 18:10:28,920] - -------------------------
+[ INFO][2016-04-10 18:10:28,920] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 18:10:28,920] - -------------------------
+[ INFO][2016-04-10 18:10:59,684] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 18:10:59,684] - CERTIFICADO
+[ INFO][2016-04-10 18:10:59,731] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 18:10:59,731] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoB.xml
+[ INFO][2016-04-10 18:10:59,746] - CERTIFICADO
+[ INFO][2016-04-10 18:10:59,856] - CertificadoRevisionTecnicaTipoB_FRTV31.lmx binding Ok.
+[ INFO][2016-04-10 18:10:59,871] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:10:59,871] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoB_FRTV31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:14:07,656] - -------------------------
+[ INFO][2016-04-10 18:14:07,656] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 18:14:07,656] - -------------------------
+[ INFO][2016-04-10 18:14:07,656] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 18:14:07,656] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 18:14:07,656] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 18:14:07,656] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 18:14:07,656] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 18:14:07,656] - -------------------------
+[ INFO][2016-04-10 18:14:07,672] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 18:14:07,672] - -------------------------
+[ INFO][2016-04-10 18:14:22,732] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 18:14:22,998] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 18:14:23,014] - CERTIFICADO
+[ INFO][2016-04-10 18:14:23,060] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 18:14:23,076] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoB.xml
+[ INFO][2016-04-10 18:14:23,092] - CERTIFICADO
+[ INFO][2016-04-10 18:14:23,248] - CertificadoRevisionTecnicaTipoB_FRTV31.lmx binding Ok.
+[ INFO][2016-04-10 18:14:23,264] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:14:23,264] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoB_FRTV31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:14:23,529] - CERTIFICADO
+[ INFO][2016-04-10 18:14:23,576] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 18:14:23,576] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoB.xml
+[ INFO][2016-04-10 18:14:23,592] - CERTIFICADO
+[ INFO][2016-04-10 18:14:23,623] - CertificadoRevisionTecnicaTipoB_FRTV31.lmx binding Ok.
+[ INFO][2016-04-10 18:14:23,623] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:14:23,639] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoB_FRTV31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:27:03,760] - -------------------------
+[ INFO][2016-04-10 18:27:03,775] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 18:27:03,775] - -------------------------
+[ INFO][2016-04-10 18:27:03,775] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 18:27:03,775] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 18:27:03,775] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 18:27:03,775] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 18:27:03,775] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 18:27:03,775] - -------------------------
+[ INFO][2016-04-10 18:27:03,791] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 18:27:03,791] - -------------------------
+[ INFO][2016-04-10 18:28:27,353] - -------------------------
+[ INFO][2016-04-10 18:28:27,353] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 18:28:27,353] - -------------------------
+[ INFO][2016-04-10 18:28:27,353] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 18:28:27,353] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 18:28:27,353] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 18:28:27,353] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 18:28:27,353] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 18:28:27,353] - -------------------------
+[ INFO][2016-04-10 18:28:27,369] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 18:28:27,369] - -------------------------
+[ INFO][2016-04-10 18:28:46,011] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 18:28:46,026] - CERTIFICADO
+[ INFO][2016-04-10 18:28:46,136] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 18:28:46,151] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:29:34,932] - -------------------------
+[ INFO][2016-04-10 18:29:34,932] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 18:29:34,932] - -------------------------
+[ INFO][2016-04-10 18:29:34,932] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 18:29:34,932] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 18:29:34,932] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 18:29:34,932] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 18:29:34,932] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 18:29:34,932] - -------------------------
+[ INFO][2016-04-10 18:29:34,948] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 18:29:34,948] - -------------------------
+[ INFO][2016-04-10 18:29:50,999] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 18:29:51,374] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 18:29:51,405] - CERTIFICADO
+[ INFO][2016-04-10 18:29:51,421] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 18:29:51,436] - CERTIFICADO
+[ INFO][2016-04-10 18:29:51,530] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 18:29:51,530] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:29:51,624] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 18:29:51,639] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:29:56,952] - CERTIFICADO
+[ INFO][2016-04-10 18:29:57,061] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 18:29:57,608] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:31:20,379] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:32:03,181] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 18:32:03,181] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 18:32:03,181] - CERTIFICADO
+[ INFO][2016-04-10 18:32:03,197] - CERTIFICADO
+[ INFO][2016-04-10 18:32:03,228] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 18:32:03,244] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:32:03,260] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 18:32:03,260] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:33:02,208] - -------------------------
+[ INFO][2016-04-10 18:33:02,208] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-10 18:33:02,208] - -------------------------
+[ INFO][2016-04-10 18:33:02,208] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-10 18:33:02,208] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-10 18:33:02,208] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-10 18:33:02,208] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-10 18:33:02,208] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-10 18:33:02,223] - -------------------------
+[ INFO][2016-04-10 18:33:02,239] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-10 18:33:02,239] - -------------------------
+[ INFO][2016-04-10 18:33:08,596] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 18:33:08,627] - CERTIFICADO
+[ INFO][2016-04-10 18:33:08,736] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 18:33:08,736] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:34:29,403] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 18:34:29,778] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 18:34:29,794] - CERTIFICADO
+[ INFO][2016-04-10 18:34:29,934] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 18:34:29,934] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:34:53,997] - CERTIFICADO
+[ INFO][2016-04-10 18:34:54,091] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 18:34:54,966] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:34:56,481] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:35:47,111] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-10 18:35:47,127] - CERTIFICADO
+[ INFO][2016-04-10 18:35:47,189] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-10 18:35:47,189] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoB.xml
+[ INFO][2016-04-10 18:35:47,205] - CERTIFICADO
+[ INFO][2016-04-10 18:35:47,392] - CertificadoRevisionTecnicaTipoB_FRTV31.lmx binding Ok.
+[ INFO][2016-04-10 18:35:47,392] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-10 18:35:47,408] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoB_FRTV31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:214)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+[ INFO][2016-04-11 16:48:08,262] - -------------------------
+[ INFO][2016-04-11 16:48:08,262] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-11 16:48:08,262] - -------------------------
+[ INFO][2016-04-11 16:48:08,262] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-11 16:48:08,262] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-11 16:48:08,278] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-11 16:48:08,278] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-11 16:48:08,278] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-11 16:48:08,700] - -------------------------
+[ INFO][2016-04-11 16:48:08,700] - Buscando Driver eToken...
+[ INFO][2016-04-11 16:48:10,887] - -------------------------
+[ INFO][2016-04-11 16:48:10,887] - Driver eToken instalado
+[ INFO][2016-04-11 16:48:10,887] - -------------------------
+[ INFO][2016-04-11 16:48:10,934] - -------------------------
+[ INFO][2016-04-11 16:48:10,934] - eToken encontrado
+[ INFO][2016-04-11 16:48:10,934] - -------------------------
+[ INFO][2016-04-11 16:48:11,137] - Usuario:le-aa5fe671-e5b2-4911-9227-d216f37212a0
+[ INFO][2016-04-11 16:48:11,168] - ------------------------
+[ INFO][2016-04-11 16:48:11,168] - Rut: 13255217-7
+[ INFO][2016-04-11 16:48:11,168] - ------------------------
+[ INFO][2016-04-11 16:48:11,184] - -------------------------
+[ INFO][2016-04-11 16:48:11,215] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-11 16:48:11,215] - -------------------------
+[ INFO][2016-04-11 16:48:33,295] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-11 16:48:34,045] - CERTIFICADO
+[ INFO][2016-04-11 16:48:34,186] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-11 16:48:35,217] - ------------------------
+[ INFO][2016-04-11 16:48:35,217] - CertificadoAnalisisGasesTipoB_GRPP80.xml firmado Ok.
+[ INFO][2016-04-11 16:48:35,217] - -------------------------
+[ INFO][2016-04-11 16:48:35,452] - -------------------------------
+[ INFO][2016-04-11 16:48:35,452] - Validación de Firma Digital
+[ INFO][2016-04-11 16:48:35,452] - -------------------------------
+[ INFO][2016-04-11 16:48:35,483] - Firma Digital Válida.
+[ INFO][2016-04-11 16:48:35,483] - -------------------------------
+[ INFO][2016-04-11 16:48:35,764] - -------------------------------
+[ INFO][2016-04-11 16:48:35,764] - Enviando Documento Electr?nico
+[ INFO][2016-04-11 16:48:35,764] - -------------------------------
+[ INFO][2016-04-11 16:48:35,780] - Archivo a enviar: F:\proyectos\PRT\drv-sign\Files\XMLoutput\CertificadoAnalisisGasesTipoB_GRPP80.xml
+[ INFO][2016-04-11 16:48:38,264] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+[AC13] cl.mtt.sgprt.cliente.SGPRTException: Servidor no responde.
+	at cl.mtt.sgprt.cliente.EnviadorSGPRT.enviarCRT(EnviadorSGPRT.java:64)
+	at cl.mtt.sgprt.sign.Envio.envio(Envio.java:36)
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:225)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+Caused by: Cannot find dispatch method for {http://recepcionCrt.ws.sgprt.mtt.cl/jaws}recepcionCRT
+	at org.apache.axis.message.SOAPFaultBuilder.createFault(SOAPFaultBuilder.java:222)
+	at org.apache.axis.message.SOAPFaultBuilder.endElement(SOAPFaultBuilder.java:129)
+	at org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1087)
+	at org.apache.xerces.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanEndElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.apache.axis.encoding.DeserializationContext.parse(DeserializationContext.java:227)
+	at org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:696)
+	at org.apache.axis.Message.getSOAPEnvelope(Message.java:435)
+	at org.apache.axis.handlers.soap.MustUnderstandChecker.invoke(MustUnderstandChecker.java:62)
+	at org.apache.axis.client.AxisClient.invoke(AxisClient.java:206)
+	at org.apache.axis.client.Call.invokeEngine(Call.java:2784)
+	at org.apache.axis.client.Call.invoke(Call.java:2767)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at cl.mtt.sgprt.ws.recepcionCrt.RecepcionCrtRemoteBindingStub.recepcionCRT(RecepcionCrtRemoteBindingStub.java:125)
+	at cl.mtt.sgprt.ws.recepcionCrt.RecepcionCrtRemoteProxy.recepcionCRT(RecepcionCrtRemoteProxy.java:59)
+	at cl.mtt.sgprt.cliente.EnviadorSGPRT.enviarCRT(EnviadorSGPRT.java:61)
+	... 3 more
+[ INFO][2016-04-11 17:27:52,910] - -------------------------
+[ INFO][2016-04-11 17:27:52,910] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-11 17:27:52,910] - -------------------------
+[ INFO][2016-04-11 17:27:52,910] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-11 17:27:52,910] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-11 17:27:52,910] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-11 17:27:52,910] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-11 17:27:52,910] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-11 17:27:53,322] - -------------------------
+[ INFO][2016-04-11 17:27:53,337] - Buscando Driver eToken...
+[ INFO][2016-04-11 17:27:55,410] - -------------------------
+[ INFO][2016-04-11 17:27:55,425] - Driver eToken instalado
+[ INFO][2016-04-11 17:27:55,425] - -------------------------
+[ INFO][2016-04-11 17:27:55,469] - -------------------------
+[ INFO][2016-04-11 17:27:55,469] - eToken encontrado
+[ INFO][2016-04-11 17:27:55,469] - -------------------------
+[ INFO][2016-04-11 17:27:55,660] - Usuario:le-aa5fe671-e5b2-4911-9227-d216f37212a0
+[ INFO][2016-04-11 17:27:55,690] - ------------------------
+[ INFO][2016-04-11 17:27:55,690] - Rut: 13255217-7
+[ INFO][2016-04-11 17:27:55,690] - ------------------------
+[ INFO][2016-04-11 17:27:55,704] - -------------------------
+[ INFO][2016-04-11 17:27:55,704] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-11 17:27:55,719] - -------------------------
+[ INFO][2016-04-11 17:28:07,319] - URI_Path_template : Files/LMXinput/template/CertificadoAnalisisGasesTipoB.xml
+[ INFO][2016-04-11 17:28:07,335] - CERTIFICADO
+[ INFO][2016-04-11 17:28:07,464] - CertificadoAnalisisGasesTipoB_GRPP80.lmx binding Ok.
+[ INFO][2016-04-11 17:28:08,354] - ------------------------
+[ INFO][2016-04-11 17:28:08,354] - CertificadoAnalisisGasesTipoB_GRPP80.xml firmado Ok.
+[ INFO][2016-04-11 17:28:08,354] - -------------------------
+[ INFO][2016-04-11 17:28:08,354] - -------------------------------
+[ INFO][2016-04-11 17:28:08,370] - Validación de Firma Digital
+[ INFO][2016-04-11 17:28:08,370] - -------------------------------
+[ INFO][2016-04-11 17:28:08,403] - Firma Digital Válida.
+[ INFO][2016-04-11 17:28:08,403] - -------------------------------
+[ INFO][2016-04-11 17:28:08,419] - -------------------------------
+[ INFO][2016-04-11 17:28:08,419] - Enviando Documento Electr?nico
+[ INFO][2016-04-11 17:28:08,419] - -------------------------------
+[ INFO][2016-04-11 17:28:08,419] - Archivo a enviar: F:\proyectos\PRT\drv-sign\Files\XMLoutput\CertificadoAnalisisGasesTipoB_GRPP80_001.xml
+[ INFO][2016-04-11 17:28:08,597] - Error al procesar archivo XML: CertificadoAnalisisGasesTipoB_GRPP80.xml
+[AC13] cl.mtt.sgprt.cliente.SGPRTException: Servidor no responde.
+	at cl.mtt.sgprt.cliente.EnviadorSGPRT.enviarCRT(EnviadorSGPRT.java:64)
+	at cl.mtt.sgprt.sign.Envio.envio(Envio.java:36)
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:225)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:120)
+Caused by: Cannot find dispatch method for {http://recepcionCrt.ws.sgprt.mtt.cl/jaws}recepcionCRT
+	at org.apache.axis.message.SOAPFaultBuilder.createFault(SOAPFaultBuilder.java:222)
+	at org.apache.axis.message.SOAPFaultBuilder.endElement(SOAPFaultBuilder.java:129)
+	at org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1087)
+	at org.apache.xerces.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanEndElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.apache.axis.encoding.DeserializationContext.parse(DeserializationContext.java:227)
+	at org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:696)
+	at org.apache.axis.Message.getSOAPEnvelope(Message.java:435)
+	at org.apache.axis.handlers.soap.MustUnderstandChecker.invoke(MustUnderstandChecker.java:62)
+	at org.apache.axis.client.AxisClient.invoke(AxisClient.java:206)
+	at org.apache.axis.client.Call.invokeEngine(Call.java:2784)
+	at org.apache.axis.client.Call.invoke(Call.java:2767)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at cl.mtt.sgprt.ws.recepcionCrt.RecepcionCrtRemoteBindingStub.recepcionCRT(RecepcionCrtRemoteBindingStub.java:125)
+	at cl.mtt.sgprt.ws.recepcionCrt.RecepcionCrtRemoteProxy.recepcionCRT(RecepcionCrtRemoteProxy.java:59)
+	at cl.mtt.sgprt.cliente.EnviadorSGPRT.enviarCRT(EnviadorSGPRT.java:61)
+	... 3 more
+[ INFO][2016-04-11 17:28:09,600] - ------------------------
+[ INFO][2016-04-11 17:28:09,745] - CertificadoAnalisisGasesTipoB_GRPP80.xml firmado Ok.
+[ INFO][2016-04-11 17:28:09,745] - -------------------------
+[ INFO][2016-04-11 17:28:09,891] - -------------------------------
+[ INFO][2016-04-11 17:28:09,891] - Validación de Firma Digital
+[ INFO][2016-04-11 17:28:09,907] - -------------------------------
+[ INFO][2016-04-11 17:28:09,939] - Firma Digital Válida.
+[ INFO][2016-04-11 17:28:09,939] - -------------------------------
+[ INFO][2016-04-11 17:28:10,295] - -------------------------------
+[ INFO][2016-04-11 17:28:10,295] - Enviando Documento Electr?nico
+[ INFO][2016-04-11 17:28:10,295] - -------------------------------
+[ INFO][2016-04-11 17:28:10,295] - Archivo a enviar: F:\proyectos\PRT\drv-sign\Files\XMLoutput\CertificadoAnalisisGasesTipoB_GRPP80_002.xml
+[ INFO][2016-04-11 17:28:13,464] - CertificadoAnalisisGasesTipoB_GRPP80.xml procesado Ok.
+[ INFO][2016-04-18 23:42:25,454] - -------------------------
+[ INFO][2016-04-18 23:42:25,467] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-18 23:42:25,467] - -------------------------
+[ INFO][2016-04-18 23:42:25,467] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-18 23:42:25,467] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-18 23:42:25,467] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-18 23:42:25,467] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-18 23:42:25,467] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-18 23:42:25,467] - -------------------------
+[ INFO][2016-04-18 23:42:25,495] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-18 23:42:25,495] - -------------------------
+[ INFO][2016-04-19 14:26:21,409] - -------------------------
+[ INFO][2016-04-19 14:26:21,409] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-19 14:26:21,409] - -------------------------
+[ INFO][2016-04-19 14:26:21,409] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-19 14:26:21,409] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-19 14:26:21,409] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-19 14:26:21,409] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-19 14:26:21,409] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-19 14:26:21,409] - -------------------------
+[ INFO][2016-04-19 14:26:21,409] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-19 14:26:21,409] - -------------------------
+[ INFO][2016-04-19 14:27:31,768] - -------------------------
+[ INFO][2016-04-19 14:27:31,768] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-19 14:27:31,768] - -------------------------
+[ INFO][2016-04-19 14:27:31,768] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-19 14:27:31,768] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-19 14:27:31,768] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-19 14:27:31,768] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-19 14:27:31,768] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-19 14:27:31,784] - -------------------------
+[ INFO][2016-04-19 14:27:31,800] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-19 14:27:31,800] - -------------------------
+[ INFO][2016-04-19 14:27:51,833] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA2.xml
+[ INFO][2016-04-19 14:27:52,864] - CERTIFICADO
+[ INFO][2016-04-19 14:27:53,192] - CertificadoRevisionTecnicaTipoA2_DFSL31.lmx binding Ok.
+[ INFO][2016-04-19 14:27:53,208] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA2_DFSL31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:215)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:121)
+[ INFO][2016-04-19 14:40:40,059] - -------------------------
+[ INFO][2016-04-19 14:40:40,059] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-19 14:40:40,059] - -------------------------
+[ INFO][2016-04-19 14:40:40,059] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-19 14:40:40,059] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-19 14:40:40,059] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-19 14:40:40,059] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-19 14:40:40,059] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-19 14:40:40,513] - -------------------------
+[ INFO][2016-04-19 14:40:40,513] - Buscando Driver eToken...
+[ INFO][2016-04-19 14:40:40,716] - -------------------------
+[ INFO][2016-04-19 14:40:40,716] - Driver eToken instalado
+[ INFO][2016-04-19 14:40:40,716] - -------------------------
+[ WARN][2016-04-19 14:40:40,731] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:63)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:60)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-19 14:44:50,702] - -------------------------
+[ INFO][2016-04-19 14:44:50,702] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-19 14:44:50,702] - -------------------------
+[ INFO][2016-04-19 14:44:50,702] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-19 14:44:50,702] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-19 14:44:50,702] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-19 14:44:50,702] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-19 14:44:50,702] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-19 14:44:50,702] - -------------------------
+[ INFO][2016-04-19 14:44:50,702] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-19 14:44:50,702] - -------------------------
+[ INFO][2016-04-19 14:45:17,498] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA1.xml
+[ INFO][2016-04-19 14:45:17,616] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA1.xml
+[ INFO][2016-04-19 14:45:17,683] - CERTIFICADO
+[ INFO][2016-04-19 14:45:18,070] - CertificadoRevisionTecnicaTipoA1_BRTF45.lmx binding Ok.
+[ INFO][2016-04-19 14:45:18,070] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA2.xml
+[ INFO][2016-04-19 14:45:18,104] - CERTIFICADO
+[ INFO][2016-04-19 14:45:18,424] - CertificadoRevisionTecnicaTipoA2_DFSL31.lmx binding Ok.
+[ INFO][2016-04-19 14:45:18,424] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA1_BRTF45.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:215)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:121)
+[ INFO][2016-04-19 14:45:18,424] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA2_DFSL31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:215)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:121)
+[ INFO][2016-04-19 14:45:18,626] - CERTIFICADO
+[ INFO][2016-04-19 14:45:18,660] - CertificadoRevisionTecnicaTipoA1_BRTF45.lmx binding Ok.
+[ INFO][2016-04-19 14:45:18,660] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA2.xml
+[ INFO][2016-04-19 14:45:18,677] - CERTIFICADO
+[ INFO][2016-04-19 14:45:18,694] - CertificadoRevisionTecnicaTipoA2_DFSL31.lmx binding Ok.
+[ INFO][2016-04-19 14:45:18,710] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA1_BRTF45.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:216)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:122)
+[ INFO][2016-04-19 14:45:18,710] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA2_DFSL31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:216)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:122)
+[ INFO][2016-04-19 14:48:27,266] - -------------------------
+[ INFO][2016-04-19 14:48:27,266] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-19 14:48:27,266] - -------------------------
+[ INFO][2016-04-19 14:48:27,266] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-19 14:48:27,266] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-19 14:48:27,266] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-19 14:48:27,266] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-19 14:48:27,266] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-19 14:48:27,266] - -------------------------
+[ INFO][2016-04-19 14:48:27,266] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-19 14:48:27,266] - -------------------------
+[ INFO][2016-04-19 14:48:42,263] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA1.xml
+[ INFO][2016-04-19 14:48:42,944] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA1.xml
+[ INFO][2016-04-19 14:48:42,959] - CERTIFICADO
+[ INFO][2016-04-19 14:48:42,990] - CERTIFICADO
+[ INFO][2016-04-19 14:48:43,238] - CertificadoRevisionTecnicaTipoA1_BRTF45.lmx binding Ok.
+[ INFO][2016-04-19 14:48:43,238] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA2.xml
+[ INFO][2016-04-19 14:48:43,269] - CERTIFICADO
+[ INFO][2016-04-19 14:48:43,392] - CertificadoRevisionTecnicaTipoA1_BRTF45.lmx binding Ok.
+[ INFO][2016-04-19 14:48:43,392] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA2.xml
+[ INFO][2016-04-19 14:48:43,423] - CERTIFICADO
+[ INFO][2016-04-19 14:48:43,717] - CertificadoRevisionTecnicaTipoA2_DFSL31.lmx binding Ok.
+[ INFO][2016-04-19 14:48:43,717] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA1_BRTF45.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:215)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:121)
+[ INFO][2016-04-19 14:48:43,717] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA1_BRTF45_001.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:215)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:121)
+[ INFO][2016-04-19 14:48:43,733] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA2_DFSL31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:215)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:121)
+[ INFO][2016-04-19 14:48:43,779] - CertificadoRevisionTecnicaTipoA2_DFSL31.lmx binding Ok.
+[ INFO][2016-04-19 14:48:43,795] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA2_DFSL31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:219)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:122)
+[ INFO][2016-04-19 14:49:33,576] - -------------------------
+[ INFO][2016-04-19 14:49:33,576] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-19 14:49:33,576] - -------------------------
+[ INFO][2016-04-19 14:49:33,576] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-19 14:49:33,576] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-19 14:49:33,591] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-19 14:49:33,591] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-19 14:49:33,591] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-19 14:49:33,591] - -------------------------
+[ INFO][2016-04-19 14:49:33,591] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-19 14:49:33,591] - -------------------------
+[ INFO][2016-04-19 14:49:36,623] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA1.xml
+[ INFO][2016-04-19 14:49:36,904] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA1.xml
+[ INFO][2016-04-19 14:49:36,919] - CERTIFICADO
+[ INFO][2016-04-19 14:49:37,123] - CertificadoRevisionTecnicaTipoA1_BRTF45.lmx binding Ok.
+[ INFO][2016-04-19 14:49:37,123] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA2.xml
+[ INFO][2016-04-19 14:49:37,138] - CERTIFICADO
+[ INFO][2016-04-19 14:49:37,310] - CertificadoRevisionTecnicaTipoA2_DFSL31.lmx binding Ok.
+[ INFO][2016-04-19 14:49:37,326] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA1_BRTF45.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:215)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:121)
+[ INFO][2016-04-19 14:49:37,341] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA2_DFSL31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:215)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:121)
+[ INFO][2016-04-19 14:49:37,482] - CERTIFICADO
+[ INFO][2016-04-19 14:49:37,529] - CertificadoRevisionTecnicaTipoA1_BRTF45.lmx binding Ok.
+[ INFO][2016-04-19 14:49:37,529] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA2.xml
+[ INFO][2016-04-19 14:49:37,544] - CERTIFICADO
+[ INFO][2016-04-19 14:49:37,560] - CertificadoRevisionTecnicaTipoA2_DFSL31.lmx binding Ok.
+[ INFO][2016-04-19 14:49:37,560] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA1_BRTF45.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:221)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:122)
+[ INFO][2016-04-19 14:49:37,576] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA2_DFSL31.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:221)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:122)
+[ERROR][2016-04-19 23:21:20,781] - Debe ingresar la clave secreta como parámetro.
+[ERROR][2016-04-19 23:21:20,781] - Uso: java FirmarCrt <clave>
+[ INFO][2016-04-19 23:21:43,968] - -------------------------
+[ INFO][2016-04-19 23:21:43,968] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-19 23:21:43,968] - -------------------------
+[ INFO][2016-04-19 23:21:43,968] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-19 23:21:43,968] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-19 23:21:43,968] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-19 23:21:43,968] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-19 23:21:43,968] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-19 23:21:44,374] - -------------------------
+[ INFO][2016-04-19 23:21:44,374] - Buscando Driver eToken...
+[ INFO][2016-04-19 23:21:44,562] - -------------------------
+[ INFO][2016-04-19 23:21:44,562] - Driver eToken instalado
+[ INFO][2016-04-19 23:21:44,562] - -------------------------
+[ WARN][2016-04-19 23:21:44,577] - Error al inicializar certificado x509
+java.lang.RuntimeException: eToken no encontrado!
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:63)
+	at cl.mtt.sgprt.sign.FirmarCrt.<init>(FirmarCrt.java:103)
+	at cl.mtt.sgprt.sign.WinClave$2.actionPerformed(WinClave.java:116)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.security.KeyStoreException: PKCS11 not found
+	at java.security.KeyStore.getInstance(KeyStore.java:628)
+	at cl.mtt.sgprt.sign.FirmarXMLPKCS11.init(FirmarXMLPKCS11.java:60)
+	... 38 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11 KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:159)
+	at java.security.Security.getImpl(Security.java:695)
+	at java.security.KeyStore.getInstance(KeyStore.java:625)
+	... 39 more
+[ INFO][2016-04-19 23:22:20,968] - -------------------------
+[ INFO][2016-04-19 23:22:20,968] - Configuracion de directorios - SGPRTCertificados
+[ INFO][2016-04-19 23:22:20,968] - -------------------------
+[ INFO][2016-04-19 23:22:20,968] - Entrada: F:\proyectos\PRT\drv-sign\Files\XMLinput
+[ INFO][2016-04-19 23:22:20,968] - Salida: F:\proyectos\PRT\drv-sign\Files\XMLoutput
+[ INFO][2016-04-19 23:22:20,968] - Respuestas: F:\proyectos\PRT\drv-sign\Files\XMLrespuesta
+[ INFO][2016-04-19 23:22:20,968] - Procesados: F:\proyectos\PRT\drv-sign\Files\XMLenviados
+[ INFO][2016-04-19 23:22:20,968] - Errores: F:\proyectos\PRT\drv-sign\Files\XMLerrores
+[ INFO][2016-04-19 23:22:20,968] - -------------------------
+[ INFO][2016-04-19 23:22:20,968] - Procesando archivos del directorio de entrada
+[ INFO][2016-04-19 23:22:20,968] - -------------------------
+[ INFO][2016-04-19 23:22:39,023] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA1.xml
+[ INFO][2016-04-19 23:22:39,226] - URI_Path_template : Files/LMXinput/template/CertificadoRevisionTecnicaTipoA1.xml
+[ INFO][2016-04-19 23:22:39,226] - CERTIFICADO
+[ INFO][2016-04-19 23:22:39,445] - CertificadoRevisionTecnicaTipoA1_BRTF45.lmx binding Ok.
+[ INFO][2016-04-19 23:22:39,460] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA1_BRTF45.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:215)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:121)
+[ INFO][2016-04-19 23:22:39,710] - CERTIFICADO
+[ INFO][2016-04-19 23:22:39,741] - CertificadoRevisionTecnicaTipoA1_BRTF45.lmx binding Ok.
+[ INFO][2016-04-19 23:22:39,757] - Error al procesar archivo XML: CertificadoRevisionTecnicaTipoA1_BRTF45.xml
+java.lang.NullPointerException
+	at cl.mtt.sgprt.sign.FirmarCrt.procesar(FirmarCrt.java:215)
+	at cl.mtt.sgprt.sign.FirmarCrt.run(FirmarCrt.java:121)

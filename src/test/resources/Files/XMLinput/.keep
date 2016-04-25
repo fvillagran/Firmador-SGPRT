@@ -1,0 +1,2 @@
+touch directory/.keep
+git add directory/.keep
