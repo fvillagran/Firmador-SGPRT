@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><aem:CertificadoRevisionTecnicaTipoB xmlns:aem="http://valida.aem.gob.cl" xmlns="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://valida.aem.gob.cl CertificadoRevisionTecnicaTipoB.xsd  http://www.w3.org/2000/09/xmldsig# http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/xmldsig-core-schema.xsd">
+	<aem:ResumenRevision>
+		<aem:RutFuncionario>
+			<aem:numero>13954554</aem:numero>
+			<aem:dv>0</aem:dv>
+		</aem:RutFuncionario>
+		<aem:RutMecanico>
+			<aem:numero>5968185</aem:numero>
+			<aem:dv>0</aem:dv>
+		</aem:RutMecanico>
+		<aem:FechaCreacion>
+			<aem:fechaValida>2010-06-17</aem:fechaValida>
+		</aem:FechaCreacion>
+		<aem:FechaRevision>
+			<aem:fechaValida>2010-06-17</aem:fechaValida>
+		</aem:FechaRevision>
+		<aem:FechaVencimiento>
+			<aem:fechaValida>2011-06-17</aem:fechaValida>
+		</aem:FechaVencimiento>
+		<aem:TipoCertificado>RB</aem:TipoCertificado>
+		<aem:URI>http://www.mtt.cl/sgprt/AB0605/25002</aem:URI>
+		<aem:IdCertificado>180344170310</aem:IdCertificado>
+		<aem:CodigoPlantaRevisora>AB0801</aem:CodigoPlantaRevisora>
+		<aem:NumeroCertificado>6145428</aem:NumeroCertificado>
+		<aem:NumeroDistintivo>12779214</aem:NumeroDistintivo>
+		<aem:HoraInicioRevision>09:00:00</aem:HoraInicioRevision>
+		<aem:HoraTerminoRevision>09:10:00</aem:HoraTerminoRevision>
+		<aem:ResultadoRevisionTecnica>A</aem:ResultadoRevisionTecnica>
+		<aem:CantidadRechazos>1</aem:CantidadRechazos>
+		<aem:CodigoRechazo>1</aem:CodigoRechazo>
+		<aem:NumeroCertificadoGases>8596616</aem:NumeroCertificadoGases>
+		<aem:ResultadoRevisionGases>A</aem:ResultadoRevisionGases>
+		<aem:FechaVencimientoGases>2011-06-17</aem:FechaVencimientoGases>
+	</aem:ResumenRevision>
+	<aem:Vehiculo>
+		<aem:PropietarioDelVehiculo>
+			<aem:run>
+				<aem:numero>48102769</aem:numero>
+				<aem:dv>1</aem:dv>
+			</aem:run>
+			<aem:nombres>
+				<aem:nombres>JUAN</aem:nombres>
+				<aem:apellidoPaterno>ELGUETA</aem:apellidoPaterno>
+				<aem:apellidoMaterno>MUÑÓZ</aem:apellidoMaterno>
+			</aem:nombres>
+			<aem:domicilio>
+				<aem:Nombre>KM 27 TANILBORO </aem:Nombre>
+				<aem:Numero>334</aem:Numero>
+				<aem:NumeroDepartamentoCasa>333</aem:NumeroDepartamentoCasa>
+				<aem:NumeroTorre>222</aem:NumeroTorre>
+				<aem:Comuna>
+					<aem:CodigoComuna>15101</aem:CodigoComuna>
+					<aem:DescripcionComuna>ARICA</aem:DescripcionComuna>
+				</aem:Comuna>
+				<aem:Provincia>
+					<aem:CodigoProvincia>063</aem:CodigoProvincia>
+					<aem:DescripcionProvincia>EL LOA</aem:DescripcionProvincia>
+				</aem:Provincia>
+				<aem:Ciudad>OLLAGUE</aem:Ciudad>
+				<aem:Region>
+					<aem:CodigoRegion>03</aem:CodigoRegion>
+					<aem:DescripcionRegion>ANTOFAGASTA</aem:DescripcionRegion>
+				</aem:Region>
+				<aem:Pais>CHILE</aem:Pais>
+				<aem:CodigoPostal>056</aem:CodigoPostal>
+				<aem:Tipo>2</aem:Tipo>
+				<aem:InformacionAdicional>ADICIONAL</aem:InformacionAdicional>
+			</aem:domicilio>
+		</aem:PropietarioDelVehiculo>
+		<aem:CaracteristicasDelVehiculo>
+			<aem:patente>
+				<aem:patente>DJ2268</aem:patente>
+				<aem:dv>2</aem:dv>
+			</aem:patente>
+			<aem:CodigoMunicipalidad>05105</aem:CodigoMunicipalidad>
+			<aem:Tara>0</aem:Tara>
+			<aem:Potencia>0</aem:Potencia>
+			<aem:CapacidadKG>3</aem:CapacidadKG>
+			<aem:NumeroMotor>9185892</aem:NumeroMotor>
+			<aem:NumeroChasis>0</aem:NumeroChasis>
+			<aem:VIN>0</aem:VIN>
+			<aem:CodigoTipoServicio>000</aem:CodigoTipoServicio>
+			<aem:AnoFabricacion>1995</aem:AnoFabricacion>
+			<aem:CodigoTipoVehiculo>003</aem:CodigoTipoVehiculo>
+			<aem:CodigoTipoCombustible>001</aem:CodigoTipoCombustible>
+			<aem:CodigoTipoSello>1</aem:CodigoTipoSello>
+		</aem:CaracteristicasDelVehiculo>
+		<aem:MarcaDelVehiculo>
+			<aem:CodigoMarca>0071</aem:CodigoMarca>
+			<aem:NombreMarca>NISSAN</aem:NombreMarca>
+			<aem:NombreModelo>D 21</aem:NombreModelo>
+		</aem:MarcaDelVehiculo>
+	</aem:Vehiculo>
+	<aem:EstacionesDeInspeccion>
+		<aem:EstacionIdentificacionB>
+			<aem:ResultadoIdentificacion>1</aem:ResultadoIdentificacion>
+		</aem:EstacionIdentificacionB>
+		<aem:EstacionInspeccionVisualB>
+			<aem:ResultadoIdPlaca>1</aem:ResultadoIdPlaca>
+			<aem:ResultadoCarroceria>1</aem:ResultadoCarroceria>
+			<aem:ResultadoParachoques>1</aem:ResultadoParachoques>
+			<aem:ResultadoVentanasVidriosParabrisas>1</aem:ResultadoVentanasVidriosParabrisas>
+			<aem:ResultadoLenteMica>1</aem:ResultadoLenteMica>
+			<aem:ResultadoRetrovisores>1</aem:ResultadoRetrovisores>
+			<aem:ResultadoRuedasNeumaticos>1</aem:ResultadoRuedasNeumaticos>
+			<aem:ResultadoSenalizadores>1 </aem:ResultadoSenalizadores>
+			<aem:ResultadoLimpiaParabrisa>1</aem:ResultadoLimpiaParabrisa>
+			<aem:ResultadoEmisiones>1</aem:ResultadoEmisiones>
+			<aem:ResultadoEstructura>1</aem:ResultadoEstructura>
+			<aem:ResultadoCinturones>1</aem:ResultadoCinturones>
+			<aem:ResultadoAsientos>1</aem:ResultadoAsientos>
+			<aem:ResultadoElementosEscape>1</aem:ResultadoElementosEscape>
+			<aem:ResultadoGanchoAcople>1</aem:ResultadoGanchoAcople>
+		</aem:EstacionInspeccionVisualB>
+		<aem:EstacionInspeccionLucesB>
+			<aem:ResultadoLuces>2</aem:ResultadoLuces>
+			<aem:ValorIntensidadBajas>20</aem:ValorIntensidadBajas>
+			<aem:ResultadoIntensidadBajas>0</aem:ResultadoIntensidadBajas>
+			<aem:CodigoAlturaBajas>2</aem:CodigoAlturaBajas>
+			<aem:ValorPitchDerecho>0</aem:ValorPitchDerecho>
+			<aem:ValorYawDerecho>150</aem:ValorYawDerecho>
+			<aem:ValorBreakDerecho>0</aem:ValorBreakDerecho>
+			<aem:ValorPitchIzquierdo>150</aem:ValorPitchIzquierdo>
+			<aem:ValorYawIzquierdo>0</aem:ValorYawIzquierdo>
+			<aem:ValorBreakIzquierdo>150</aem:ValorBreakIzquierdo>
+			<aem:ResultadoAlineacionBajas>0</aem:ResultadoAlineacionBajas>
+			<aem:ValorAlineacionAltasDerecho>150</aem:ValorAlineacionAltasDerecho>
+			<aem:ValorSentidoMarchaDerecho>0</aem:ValorSentidoMarchaDerecho>
+			<aem:ValorAlineacionAltasIzquierdo>20</aem:ValorAlineacionAltasIzquierdo>
+			<aem:ValorSentidoMarchaIzquierdo>0</aem:ValorSentidoMarchaIzquierdo>
+			<aem:ResultadoAlineacionAltas>0</aem:ResultadoAlineacionAltas>
+			<aem:ValorAlturaNeblineros>1</aem:ValorAlturaNeblineros>
+			<aem:ValorPitchNeblinerosDerecho>0</aem:ValorPitchNeblinerosDerecho>
+			<aem:ValorBreakNeblinerosDerecho>150</aem:ValorBreakNeblinerosDerecho>
+			<aem:ValorYawNeblinerosDerecho>0</aem:ValorYawNeblinerosDerecho>
+			<aem:ValorPitchNeblinerosIzquierdo>0</aem:ValorPitchNeblinerosIzquierdo>
+			<aem:ValorBreakNeblinerosIzquierdo>150</aem:ValorBreakNeblinerosIzquierdo>
+			<aem:ValorYawNeblinerosIzquierdo>0</aem:ValorYawNeblinerosIzquierdo>
+			<aem:ResultadoAlineacionNeblineros>0</aem:ResultadoAlineacionNeblineros>
+			<aem:ResultadoCentroFocos>0</aem:ResultadoCentroFocos>
+		</aem:EstacionInspeccionLucesB>
+		<aem:EstacionInspeccionAlineacionB>
+			<aem:ValorAlineacionEjeDelantero>0</aem:ValorAlineacionEjeDelantero>
+			<aem:ResultadoAlineacionEjeDelantero>1</aem:ResultadoAlineacionEjeDelantero>
+		</aem:EstacionInspeccionAlineacionB>
+		<aem:EstacionInspeccionFrenosB>
+			<aem:ValorDiferenciaEjeDelantero>11</aem:ValorDiferenciaEjeDelantero>
+			<aem:ResultadoFrenoEjeDelantero>1</aem:ResultadoFrenoEjeDelantero>
+			<aem:ValorEficaciaFrenado>55</aem:ValorEficaciaFrenado>
+			<aem:ResultadoEficaciaFrenado>1</aem:ResultadoEficaciaFrenado>
+			<aem:ValorEficaciaFrenoAuxiliar>18</aem:ValorEficaciaFrenoAuxiliar>
+			<aem:ResultadoEficaciaFrenoAuxiliar>1</aem:ResultadoEficaciaFrenoAuxiliar>
+			<aem:ValorDiferenciaEjeTrasero1>19</aem:ValorDiferenciaEjeTrasero1>
+			<aem:ResultadoDiferenciaEjeTrasero1>1</aem:ResultadoDiferenciaEjeTrasero1>
+		</aem:EstacionInspeccionFrenosB>
+		<aem:EstacionInspeccionHolgurasB>
+			<aem:ResultadoEstanque>1</aem:ResultadoEstanque>
+			<aem:ResultadoDuctoLiquidoFreno>1</aem:ResultadoDuctoLiquidoFreno>
+			<aem:ResultadoEscape>1</aem:ResultadoEscape>
+			<aem:ResultadoConvertidorCatalitico>1</aem:ResultadoConvertidorCatalitico>
+			<aem:ResultadoHolguraBarrasTorsion>1</aem:ResultadoHolguraBarrasTorsion>
+			<aem:ResultadoTransmision>1</aem:ResultadoTransmision>
+			<aem:ResultadoHolguraPaqueteResortes>1</aem:ResultadoHolguraPaqueteResortes>
+			<aem:ResultadoCajaDireccion>1</aem:ResultadoCajaDireccion>
+			<aem:ResultadoHolguraAmortiguadores>1</aem:ResultadoHolguraAmortiguadores>
+			<aem:ResultadoMotor>1</aem:ResultadoMotor>
+			<aem:ResultadoRefrigeracion>0</aem:ResultadoRefrigeracion>
+			<aem:ResultadoBrazosRotulos>1</aem:ResultadoBrazosRotulos>
+		</aem:EstacionInspeccionHolgurasB>
+		<aem:EstacionInspeccionSuspensionB>
+			<aem:ValorSuspensionDiferenciaEjeDelantero>0</aem:ValorSuspensionDiferenciaEjeDelantero>
+			<aem:ResultadoSuspensionEjeDelantero>1</aem:ResultadoSuspensionEjeDelantero>
+			<aem:ValorDiferenciaSuspencionEjeTrasero>0</aem:ValorDiferenciaSuspencionEjeTrasero>
+			<aem:ResultadoSuspensionEjeTrasero>1</aem:ResultadoSuspensionEjeTrasero>
+		</aem:EstacionInspeccionSuspensionB>
+		<aem:EstacionInspeccionGasesB>
+			<aem:ValorCoRalenti>0</aem:ValorCoRalenti>
+			<aem:ResultadoCoRalenti>1</aem:ResultadoCoRalenti>
+			<aem:ValorHcRalenti>73</aem:ValorHcRalenti>
+			<aem:ResultadoHcRalenti>1</aem:ResultadoHcRalenti>
+			<aem:ValorCoCo2Ralenti>10.15</aem:ValorCoCo2Ralenti>
+			<aem:ResultadoCoCo2Ralenti>1</aem:ResultadoCoCo2Ralenti>
+			<aem:ValorCo2500Rpm>0</aem:ValorCo2500Rpm>
+			<aem:ResultadoCo2500Rpm>1</aem:ResultadoCo2500Rpm>
+			<aem:ValorHc2500Rpm>16</aem:ValorHc2500Rpm>
+			<aem:ResultadoHc2500Rpm>1</aem:ResultadoHc2500Rpm>
+			<aem:ValorCo2Co2500Rpm>13.65</aem:ValorCo2Co2500Rpm>
+			<aem:ResultadoCo2Co2500Rpm>1</aem:ResultadoCo2Co2500Rpm>
+			<aem:ResultadoHumo>1</aem:ResultadoHumo>
+			<aem:ValorHcSTDR5015>0</aem:ValorHcSTDR5015>
+			<aem:ResultadoHcSTDR5015>0</aem:ResultadoHcSTDR5015>
+			<aem:ValorCoSTDR5015>0</aem:ValorCoSTDR5015>
+			<aem:ResultadoCoSTDR5015>0</aem:ResultadoCoSTDR5015>
+			<aem:ValorNoSTDR5015>0</aem:ValorNoSTDR5015>
+			<aem:ResultadoNoSTDR5015>0</aem:ResultadoNoSTDR5015>
+			<aem:ValorHcSTDR2525>0</aem:ValorHcSTDR2525>
+			<aem:ResultadoHcSTDR2525>0</aem:ResultadoHcSTDR2525>
+			<aem:ValorCoSTDR2525>0</aem:ValorCoSTDR2525>
+			<aem:ResultadoCoSTDR2525>0</aem:ResultadoCoSTDR2525>
+			<aem:ValorNoSTDR2525>0</aem:ValorNoSTDR2525>
+			<aem:ResultadoNoSTDR2525>0</aem:ResultadoNoSTDR2525>
+		</aem:EstacionInspeccionGasesB>
+		<aem:EstacionInspeccionOpacidadB>
+			<aem:ValorOpacidad1>0 </aem:ValorOpacidad1>
+			<aem:ValorOpacidad2>0</aem:ValorOpacidad2>
+			<aem:ValorOpacidad3>0</aem:ValorOpacidad3>
+			<aem:ValorOpacidad4>0</aem:ValorOpacidad4>
+			<aem:ValorOpacidad5>0</aem:ValorOpacidad5>
+			<aem:ValorMediaOpacidadValida>0</aem:ValorMediaOpacidadValida>
+			<aem:ResultadoOpacidadMedida>0</aem:ResultadoOpacidadMedida>
+		</aem:EstacionInspeccionOpacidadB>
+	</aem:EstacionesDeInspeccion>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" xmlns="http://www.w3.org/2000/09/xmldsig#"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" xmlns="http://www.w3.org/2000/09/xmldsig#"/>
+<Reference URI="" xmlns="http://www.w3.org/2000/09/xmldsig#">
+<Transforms xmlns="http://www.w3.org/2000/09/xmldsig#">
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" xmlns="http://www.w3.org/2000/09/xmldsig#"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" xmlns="http://www.w3.org/2000/09/xmldsig#"/>
+<DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">dDwBk2HNmptyh3VcCX25UhtVQCA=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">
+IqMF/QQr8qpjZWEJll7DQsmIaVYHr8SMuDkMdi9bojxzJ1J8dS/JlT5+PH1pOFV5n9FLMtW8+Hr2
+JZH6ZNUqxofnZmjqMYQS5u7CHPFJkzzCNIc9xpefUq3gZEShgsBbN9QbsJn21HOe/zrnDPlPPYmb
+ZBszA6fxoWUuzvuPLc4=
+</SignatureValue>
+<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+<X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+<X509Certificate xmlns="http://www.w3.org/2000/09/xmldsig#">
+MIIFXzCCBEegAwIBAgICB8swDQYJKoZIhvcNAQEFBQAwgYoxCzAJBgNVBAYTAkNMMRMwEQYDVQQF
+Ewo5NjkxOTA1MC04MR4wHAYJKoZIhvcNAQkBFg9pbmZvQGFjZXB0YS5jb20xRjBEBgNVBAMTPUFj
+ZXB0YS5jb20gQXV0b3JpZGFkIENlcnRpZmljYWRvcmEgRmlybWEgRWxlY3Ryb25pY2EgQXZhbnph
+ZGEwHhcNMTAwNTI4MjAxMzI0WhcNMTEwNTI4MjAxMzI0WjBnMQswCQYDVQQGEwJDTDEdMBsGCSqG
+SIb3DQEJARYOYXBhbG1hQG1lbW8uY2wxEzARBgNVBAUTCjEzOTU0NTU0LTAxJDAiBgNVBAMTG0FM
+RVggR1VJTExFUk1PIEFSQVlBIENSVUNFUzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAiWyF
+krjaoujobcHl9xvgj6pvkn6CJMtOOily2cI8bPFk7cpl/N87fRJuiO9+WfM2YS2SkMkXYs/5XewA
+oRZ9FkKlrfJcKtx83im7wQoXBeXmV+wl9kka9ZyxuQJTKuEX1RP5+wRdqQRgCGZ0AZEIQRikK2+A
+TPUKNMdeLi7QrU8CAwEAAaOCAnMwggJvMFkGA1UdEQRSMFCgGAYIKwYBBAHBAQGgDBYKMTM5NTQ1
+NTQtMIEOYXBhbG1hQG1lbW8uY2ygJAYIKwYBBQUHCAOgGDAWDAoxMzk1NDU1NC0wBggrBgEEAcEB
+ATAJBgNVHRMEAjAAMBEGCWCGSAGG+EIBAQQEAwIFoDALBgNVHQ8EBAMCBPAwHQYDVR0lBBYwFAYI
+KwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBRoB/6mSaMRJ+Nxv1uDURYINltNIjAfBgNVHSME
+GDAWgBTdDhQQna8Kg9foFogFUNX77xfPoDAlBgNVHRIEHjAcoBoGCCsGAQQBwQECoA4WDDk2Ljkx
+OS4wNTAtODCB/AYDVR0gBIH0MIHxMIHuBggrBgEEAbVrAjCB4TAoBggrBgEFBQcCARYcaHR0cDov
+L3d3dy5hY2VwdGEuY29tL0NQUy9GQTCBtAYIKwYBBQUHAgIwgacwERYKQWNlcHRhLmNvbTADAgEB
+GoGRQ2VydGlmaWNhZG8gcGFyYSBGaXJtYSBFbGVjdHJvbmljYSBBdmFuemFkYS4gUmVzb2x1Y2lv
+biBleGVudGEgNjUwIGRlbCAyMSBkZSBvY3R1YnJlIGRlIDIwMDQsIFN1YnNlY3JldGFyaWEgZGUg
+RWNvbm9taWEsIEZvbWVudG8geSBSZWNvbnN0cnVjY2lvbjAzBggrBgEFBQcBAQQnMCUwIwYIKwYB
+BQUHMAGGF2h0dHA6Ly9vY3NwLmFjZXB0YS5jb20vMC0GA1UdHwQmMCQwIqAgoB6GHGh0dHA6Ly9j
+cmwuYWNlcHRhLmNvbS9GQS5jcmwwDQYJKoZIhvcNAQEFBQADggEBAHgbcI7ms+HU+YWtM0CdUMgK
+tTR8xWaVXONLOXYyWkcLXMeiLSUHRJwNl1qsQW4RjiJ7DJ2sfoQ6bWUUkQ46eovd1wYFqJdDzRpH
+kwGKZ+QylUPbeZ7ujnDpX13E7X0bJNJAjhjNcv4WsdpA/pXkqQ0SKCwHxy/Rhk8AtAEpSFmspd2k
+7qaF0ZD628HqAq82TqdOVIWae/9dd0EP09ZKDB3SQTf8OD0mSgCbLMl3aI4CjjSOySoml6jVI1GJ
+5F91IZDtRWC0bsutdXYJkbSRSLE9KkD1MYIWP2LwCxRp4QtmCHXNaoT/h7Qds3AXetEVvaallcHQ
+q6Iw2NixclK1srY=
+</X509Certificate>
+</X509Data>
+<KeyValue xmlns="http://www.w3.org/2000/09/xmldsig#">
+<RSAKeyValue xmlns="http://www.w3.org/2000/09/xmldsig#">
+<Modulus xmlns="http://www.w3.org/2000/09/xmldsig#">
+iWyFkrjaoujobcHl9xvgj6pvkn6CJMtOOily2cI8bPFk7cpl/N87fRJuiO9+WfM2YS2SkMkXYs/5
+XewAoRZ9FkKlrfJcKtx83im7wQoXBeXmV+wl9kka9ZyxuQJTKuEX1RP5+wRdqQRgCGZ0AZEIQRik
+K2+ATPUKNMdeLi7QrU8=
+</Modulus>
+<Exponent xmlns="http://www.w3.org/2000/09/xmldsig#">AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+</KeyInfo>
+</Signature></aem:CertificadoRevisionTecnicaTipoB>
